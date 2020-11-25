@@ -1,0 +1,120 @@
+
+
+@font-face {
+  font-family: Poppins;
+  src: url(./font/Poppins-Regular.ttf);
+}
+
+
+#collab_card{position: relative;}
+
+
+.column_col {
+ float:left;
+ width: 9.17vw;
+ height: 9.17vw;
+  margin-left: 3vw;
+}
+
+
+.row_collab::after {
+
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.row_collab{
+	width: 45.57vw;
+	padding-left: 3.9vw;
+}
+
+#work{
+
+position: absolute;
+width:9.8vw;
+height: 2.6vw;
+left: 71.08vw;
+top: 5.2vw;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 1.75vw;
+line-height: 2.63vw;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+/* headings */
+
+color: #212121;
+}
+#lec{
+
+	position: absolute;
+width: 18.08vw;
+height: 2.63vw;
+left: 71.08vw;
+top: 14.25vw;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 1.75vw;
+line-height: 2.63vw;
+/* identical to box height */
+
+
+align-items: center;
+
+/* headings */
+
+color: #212121;
+}
+
+
+#work_count{
+
+position: absolute;
+width: 5.27vw;
+height: 5.79vw;
+left: 71.08vw;
+top: 1.0vw;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 3.51vw;
+line-height: 5.27vw;
+display: flex;
+align-items: center;
+
+color: #324FC5;
+}
+
+#lec_count{
+position: absolute;
+width: 7.54vw;
+height: 6.51vw;
+left: 71.08vw;
+top: 9.25vw;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 3.95vw;
+line-height: 5.9vw;
+display: flex;
+align-items: center;
+
+/* new blue */
+
+color: #324FC5;
+}
+
+.col_img{
+	width: 100%;
+}

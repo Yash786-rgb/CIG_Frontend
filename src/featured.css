@@ -1,0 +1,83 @@
+#featured_bg{
+	
+width: 91vw;
+height: 43.70vw;
+	margin-left: 6.14vw;
+
+	
+margin-top: 3.92vw;
+
+}
+
+
+.row_feat::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.card_feat{
+
+
+width: 25.7vw;
+height: 38.7vw;
+margin-left: 2.56vw;
+
+ float:left;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 20px rgba(168, 181, 192, 0.14);
+border-radius: 0.146vw;
+
+}
+
+#card_heading{
+
+width: 16.40vw;
+height: 2.083vw;
+margin-left: 3.25vw;
+margin-top: 2.25vw;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 1.56vw;
+line-height: 2.08vw;
+/* identical to box height, or 133% */
+
+display: flex;
+align-items: center;
+
+/* headings */
+
+color: #2D2E37;
+}
+
+#card_content{
+
+width: 17.70vw;
+height: 17.57vw;
+margin-left: 3.25vw;
+margin-top: 1.302vw;
+
+font-family: Noto Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 1.04vw;
+line-height: 1.95vw;
+/* or 187% */
+
+
+/* Gray 2 */
+
+color: #4F4F4F;
+}
+
+
+
+.icn{
+	margin-top: 1.95vw;
+	margin-left: 3.25vw;
+	width: 7.8125vw;
+height: 1.63vw;
+}

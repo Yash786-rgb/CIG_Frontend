@@ -1,0 +1,75 @@
+#success{
+position: absolute;
+width: 40.951vw;
+height: 12.240vw;
+left: 23.372vw;
+top: 23.438vw;
+z-index: 3;
+background: #E6F4EA;
+box-shadow: 0vw 0vw 0.651vw rgba(235, 235, 235, 0.18), 0.065vw 0.260vw 0.521vw rgba(0, 0, 0, 0.15);
+border-radius: 0.130vw;
+}
+
+#head_suc{
+	position:absolute; 
+	width: 15.951vw;
+height: 2.148vw;
+left: 2.083vw;
+top: 1.107vw;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 1.302vw;
+line-height: 1.953vw;
+display: flex;
+align-items: center;
+text-align: right;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+
+color: #1E8E3E;
+
+}
+
+#sub_suc{
+	position: absolute;
+width: 36.654vw;
+height: 6.25vw;
+left: 2.083vw;
+top: 3.906vw;
+
+font-family: Noto Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 1.172vw;
+line-height: 2.083vw;
+/* or 178% */
+
+
+color: #1E8E3E;
+}
+
+
+#check{
+	position:absolute; 
+	width: 1.172vw;
+height: 1.172vw;
+left: 18.229vw;
+top: 1.628vw;
+}
+
+#cross{
+	cursor: grab;
+	position: absolute;
+	left: 39.258vw;
+	top:0.242vw;
+	width: 0.651vw;
+	height: 0.651vw;
+	color: #1E8E3E;
+mix-blend-mode: normal;
+}
+
+#cross:hover{
+	color: #1E8E3E;
+}
