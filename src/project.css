@@ -1,0 +1,55 @@
+#project_img{
+	width: 41.87vw;
+height: 25.76vw;
+margin-left: 29.06vw;
+margin-top: 11.93vw;
+}
+
+#project_heading{
+	margin-top:2.63vw; 
+	margin-left:41.80vw;
+	width: 16.47vw;
+height: 2.34vw;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 1.317vw;
+line-height: 2.34vw;
+/* identical to box height, or 178% */
+
+text-align: center;
+
+/* Gray 1 */
+
+color: #333333;;
+}
+
+#link_home{
+	width: 11.05vw;
+height: 1.46vw;
+margin-left: 44.50vw;
+margin-top: 1.17vw;
+
+/* unwrapped button 2 */
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 1.17vw;
+line-height: 1.46vw;
+/* identical to box height, or 125% */
+
+display: flex;
+align-items: center;
+text-align: right;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+
+/* blue hover */
+color: #324FC5;
+margin-bottom: 7.32vw;
+}
+
+#link_home:hover{
+color: #102886;	
+}

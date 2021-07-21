@@ -1,0 +1,780 @@
+#form_bg{
+position: absolute;
+  width: 40.142vw;
+height: 70.583vw;
+
+top:21.37vw;
+left:47.783vw;
+/* white */
+
+background: #FFFFFF;
+/* bg */
+
+border: 0.04.753vw solid #F3F6FD;
+box-sizing: border-box;
+
+}
+
+.chk_box{
+  border: 1px solid #828282;
+box-sizing: border-box;
+border-radius: 1px;
+}
+
+
+
+ #form_title{
+  position: absolute;
+width: 35.156vw;
+height: 2.083vw;
+left: 3.385vw;
+top: 2.083vw;
+
+font-family: Noto Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 1.172vw;
+line-height: 2.083vw;
+/* identical to box height, or 178% */
+
+
+/* Gray 2 */
+
+color: #4F4F4F;
+ }
+
+ #form_sub{
+  position: absolute;
+width: 35.156vw;
+height: 1.302vw;
+left: 3.385vw;
+top: 4.557vw;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 0.911vw;
+line-height: 1.302vw;
+/* identical to box height, or 143% */
+
+
+/* Gray 3 */
+
+color: #828282;
+ 
+ }
+
+.no_outline:focus{
+  outline: none;
+}
+
+
+#form_name{
+  position: absolute;
+width: 31.966vw;
+height: 1.302vw;
+left: 3.385vw;
+top: 12.5vw;
+
+/* 14 px */
+
+font-family: Noto Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 0.911vw;
+line-height: 1.302vw;
+/* identical to box height, or 143% */
+
+display: flex;
+align-items: center;
+
+/* Gray 3 */
+
+color: #828282;
+
+  border-top-style: hidden;
+      border-right-style: hidden;
+      border-left-style: hidden;
+      border-bottom-style: hidden;
+}
+
+
+#name_focus{
+  position: absolute;
+width: 31.966vw;
+height: 0.065vw;
+left: 3.385vw;
+top: 14.518vw;
+
+/* grey 2 */
+
+border: 0.0326vw solid #D9E1EB;
+box-sizing: border-box;
+border-radius: 0.065vw;
+}
+
+
+#form_name:focus + #name_focus {
+    border: 0.0326vw solid #324FC5  !important;
+ 
+}
+
+
+
+#form_corp{
+  position: absolute;
+width: 31.966vw;
+height: 1.302vw;
+left: 3.385vw;
+top: 20.182vw;
+
+/* 14 px */
+
+font-family: Noto Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 0.911vw;
+line-height: 1.302vw;
+/* identical to box height, or 143% */
+
+display: flex;
+align-items: center;
+
+/* Gray 3 */
+
+color: #828282;
+
+  border-top-style: hidden;
+      border-right-style: hidden;
+      border-left-style: hidden;
+      border-bottom-style: hidden;
+}
+
+
+#corp_focus{
+  position: absolute;
+width: 31.966vw;
+height: 0.065vw;
+left: 3.385vw;
+top: 21.745vw;
+
+/* grey 2 */
+
+border: 0.0326vw solid #D9E1EB;
+box-sizing: border-box;
+border-radius: 0.065vw;
+}
+
+
+#form_corp:focus + #corp_focus {
+    border: 0.0326vw solid #324FC5  !important;
+ 
+}
+
+
+
+
+#form_mail{
+  position: absolute;
+width: 31.966vw;
+height: 1.302vw;
+left: 3.385vw;
+top: 27.409vw;
+
+/* 14 px */
+
+font-family: Noto Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 0.911vw;
+line-height: 1.302vw;
+/* identical to box height, or 143% */
+
+display: flex;
+align-items: center;
+
+/* Gray 3 */
+
+color: #828282;
+
+  border-top-style: hidden;
+      border-right-style: hidden;
+      border-left-style: hidden;
+      border-bottom-style: hidden;
+}
+
+
+#mail_focus{
+  position: absolute;
+width: 31.966vw;
+height: 0.065vw;
+left: 3.385vw;
+top: 28.971vw;
+
+/* grey 2 */
+
+border: 0.0326vw solid #D9E1EB;
+box-sizing: border-box;
+border-radius: 0.065vw;
+}
+
+
+#form_mail:focus + #mail_focus {
+    border: 0.0326vw solid #324FC5  !important;
+ 
+}
+
+
+
+#form_phone{
+  position: absolute;
+width: 31.966vw;
+height: 1.302vw;
+left: 3.385vw;
+top: 34.635vw;
+
+/* 14 px */
+
+font-family: Noto Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 0.911vw;
+line-height: 1.302vw;
+/* identical to box height, or 143% */
+
+display: flex;
+align-items: center;
+
+/* Gray 3 */
+
+color: #828282;
+
+  border-top-style: hidden;
+      border-right-style: hidden;
+      border-left-style: hidden;
+      border-bottom-style: hidden;
+}
+
+
+#phone_focus{
+  position: absolute;
+width: 31.966vw;
+height: 0.065vw;
+left: 3.385vw;
+top: 36.198vw;
+
+/* grey 2 */
+
+border: 0.0326vw solid #D9E1EB;
+box-sizing: border-box;
+border-radius: 0.065vw;
+}
+
+
+#form_phone:focus + #phone_focus {
+    border: 0.0326vw solid #324FC5  !important;
+ 
+}
+
+
+#form_msg{
+  position: absolute;
+width: 31.966vw;
+height: 1.302vw;
+left: 3.385vw;
+top: 58.581vw !important;
+word-wrap: break-word !important;
+/* 14 px */
+
+font-family: Noto Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 0.911vw;
+line-height: 1.302vw;
+/* identical to box height, or 143% */
+
+display: flex;
+align-items: center;
+
+/* Gray 3 */
+
+color: #828282;
+
+  border-top-style: hidden;
+      border-right-style: hidden;
+      border-left-style: hidden;
+      border-bottom-style: hidden;
+}
+
+
+#msg_focus{
+  position: absolute;
+width: 31.966vw;
+height: 0.065vw;
+left: 3.385vw;
+top: 60.143vw !important;
+
+/* grey 2 */
+
+border: 0.0326vw solid #D9E1EB;
+box-sizing: border-box;
+border-radius: 0.065vw;
+}
+
+
+#form_msg:focus + #msg_focus {
+    border: 0.0326vw solid #324FC5  !important;
+ 
+}
+
+
+#name_head{
+
+position: absolute;
+width: 9.29vw !important;
+height: 1.693vw;
+left: 3.385vw;
+top: 10.482vw;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 1.172vw;
+line-height: 1.693vw;
+/* identical to box height, or 144% */
+
+
+/* new blue */
+
+color: #324FC5;
+}
+
+
+
+#Corporation_head{
+  
+
+position: absolute;
+width: 9.29vw !important;
+height: 1.693vw;
+left: 3.385vw;
+top: 17.708vw;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 1.172vw;
+line-height: 1.693vw;
+/* identical to box height, or 144% */
+
+
+/* new blue */
+
+color: #324FC5;
+}
+
+
+#mail_head{
+  
+position: absolute;
+width: 9.29vw !important;
+height: 1.693vw;
+left: 3.385vw;
+top: 24.935vw;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 1.172vw;
+line-height: 1.693vw;
+/* identical to box height, or 144% */
+
+
+/* new blue */
+
+color: #324FC5;
+}
+
+
+
+#phone_head{
+  
+
+position: absolute;
+width: 4.557vw;
+height: 1.693vw;
+left: 3.385vw;
+top: 32.161vw;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 1.172vw;
+line-height: 1.693vw;
+/* identical to box height, or 144% */
+
+
+/* new blue */
+
+color: #324FC5;
+}
+
+
+#interest{
+
+position: absolute;
+width: 10.482vw;
+height: 1.693vw;
+left: 3.385vw;
+top: 39.388vw;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 1.172vw;
+line-height: 1.693vw;
+/* identical to box height, or 144% */
+
+
+/* new blue */
+
+color: #324FC5;
+}
+
+#interest_a{
+
+  position: absolute;
+width: 223.2.344vw;
+height: 2.083vw;
+left: 4.68vw;
+top: 41.602vw;
+
+/* text 18 px */
+
+font-family: Noto Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 1.172vw;
+line-height: 2.083vw;
+/* identical to box height, or 178% */
+
+
+/* Gray 2 */
+
+color: #4F4F4F;
+}
+
+#interest_b{
+
+  position: absolute;
+width: 223.2.344vw;
+height: 2.083vw;
+left: 4.68vw;
+top: 44.010vw;
+
+/* text 18 px */
+
+font-family: Noto Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 1.172vw;
+line-height: 2.083vw;
+/* identical to box height, or 178% */
+
+
+/* Gray 2 */
+
+color: #4F4F4F;
+}
+
+
+#interest_c{
+
+  position: absolute;
+width: 223.2.344vw;
+height: 2.083vw;
+left: 4.68vw;
+top: 46.419vw;
+
+/* text 18 px */
+
+font-family: Noto Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 1.172vw;
+line-height: 2.083vw;
+/* identical to box height, or 178% */
+
+
+/* Gray 2 */
+
+color: #4F4F4F;
+}
+
+
+#msg_form{
+
+position: absolute;
+width: 5.339vw;
+height: 1.693vw;
+left: 3.385vw;
+top: 56.107vw!important;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 1.172vw;
+line-height: 1.693vw;
+/* identical to box height, or 144% */
+
+
+/* new blue */
+
+color: #324FC5;
+}
+
+
+#btn_form{
+  position: absolute;
+left: 3.385vw;
+top: 63.049vw !important;
+
+/* unwrapped button 2 */
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 1.042vw;
+line-height: 1.563vw;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+padding-left: 13.021vw;
+/* white */
+
+color: #FFFFFF;
+background: #324FC5;
+/* new blue */
+
+width: 31.771vw;
+height: 3.125vw;
+
+border: 0.065vw solid #324FC5;
+box-sizing: border-box;
+border-radius: 0.195vw;
+}
+
+#btn_form:hover{
+  background: #102886;
+border-radius: 0.195vw;
+}
+
+
+#btn_a{
+position: absolute;
+left:3.125vw;
+top: 41.992vw;
+
+width: 1.1vw;
+height: 1.1vw;
+}
+
+#btn_b{
+position: absolute;
+left:3.125vw;
+top: 44.531vw;
+
+width: 1.1vw;
+height: 1.1vw;
+}
+
+
+#btn_c{
+position: absolute;
+left:3.125vw;
+top: 46.875vw;
+
+width: 1.1vw;
+height: 1.1vw;
+}
+
+
+
+
+/* Customize the label (the container) */
+.container {
+  display: block;
+
+  padding-left: 2.5vw;
+ 
+  cursor: pointer;
+  font-size: 1.146vw;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: Noto Sans;
+font-style: normal;
+font-weight: normal;
+
+}
+
+#box_a{
+position: absolute;
+top: 42.3vw;
+left: 3.385vw;
+}
+
+
+
+#box_b{
+  position: absolute;
+top: 45.3vw;
+left: 3.385vw;
+}
+
+
+#box_c{
+  position: absolute;
+top: 48.3vw;
+left: 3.385vw;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1.04vw;
+  width: 1.04vw;
+  background-color: #eee;
+    border: 0.065vw solid  #324FC5;
+  }
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #324FC5;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 0.26vw;
+  top: 0.065vw;
+  width: 0.26vw;
+  height: 0.65vw;
+  border: solid white;
+  border-width: 0 0.195vw 0.195vw 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+.container_r {
+ display: block;
+ 
+  padding-left: 2.27vw;
+
+  cursor: pointer;
+  font-size: 1.04vw;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: Noto Sans;
+font-style: normal;
+font-weight: normal;
+}
+
+#rad{
+  position: absolute;
+  top:51vw;
+  left:3.385vw;
+}
+/* Hide the browser's default radio button */
+.container_r input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark_r {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1.172vw;
+  width: 1.172vw;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container_r:hover input ~ .checkmark_r {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container_r input:checked ~ .checkmark_r {
+  background-color: #324FC5;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark_r:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container_r input:checked ~ .checkmark_r:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container_r .checkmark_r:after {
+  top: 0.325vw;
+  left: 0.325vw;
+  width: 0.52vw;
+  height: 0.52vw;
+  border-radius: 50%;
+  background: white;
+}
+
+  .required:after {
+    content:" *";
+    color: red;
+  }
+
+  .asterik:before {
+    content:"* ";
+    color: red;
+  }

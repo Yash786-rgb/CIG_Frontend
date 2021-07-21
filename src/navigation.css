@@ -1,0 +1,282 @@
+@font-face {
+	font-family: Noto Sans;
+	src: url(./font/NotoSans-Regular.ttf);
+  }
+  
+  
+  
+  
+  #logo{
+  position: absolute;
+  left: 9.37%;
+  right: 66.4%;
+  top: 1.953vw;
+  bottom: 99%;
+  
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.30vw;
+  line-height: 1.3vw;
+  display: flex;
+  align-items: center;
+  
+  color: #757575;
+  }
+  
+  #cig_logo{
+	  position: absolute;
+  left: 6.5%;
+  right: 0%;
+  top: 0.65vw;
+  bottom: 0%;
+  width: 2.7vw;
+  height: 3.22vw;
+  
+  }
+  
+  #logo_head{
+  position: absolute;
+  left: 9.37%;
+  right: 78.92%;
+  top: 58.51%;
+  bottom: 21.35%;
+  
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.78vw;
+  line-height: 1.04vw;
+  
+  /* Gray 2 */
+  
+  color: #4F4F4F;
+  }
+  
+  
+  #bg{
+  
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  height: 4.1vw;
+  
+  background: #FFFFFF;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  #first{
+  
+  position: absolute;
+  left: 37.6%;
+  top: 1.30vw;
+  bottom: 98.89%;
+  width: 7.02vw;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.91vw;
+  line-height: 1.23vw;
+  text-align: center;
+  text-decoration: none;
+  
+  /* Gray 3 */
+  
+  color: #828282;
+  }
+  
+  #second{
+  
+  position: absolute;
+  left: 46.7%;
+  right: 27.6%;
+  top: 1.30vw;
+  bottom: 98.89%;
+  text-decoration: none;
+  width: 4.46vw;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.91vw;
+  line-height: 1.23vw;
+  text-align: center;
+  
+  /* Gray 3 */
+  
+  color: #828282;
+  }
+  
+  #third{
+  
+  position: absolute;
+  left: 51.9%;
+  right: 19.25%;
+  top: 1.30vw;
+  bottom: 98.89%;
+  width: 6.02vw;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.91vw;
+  line-height: 1.23vw;
+  text-align: center;
+  text-decoration: none;
+  
+  /* Gray 3 */
+  
+  color: #828282;
+  }
+  
+  #fourth{
+  position: absolute;
+  left: 58.05%;
+  right: 11.93%;
+  top: 1.30vw;
+  bottom: 98.89%;
+  width: 6.0vw;
+  text-decoration: none;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.91vw;
+  line-height: 1.23vw;
+  text-align: center;
+  
+  /* Gray 3 */
+  
+  color: #828282;
+  }
+  
+  #fifth{
+  position: absolute;
+  left: 65.66%;
+  right: 5.86%;
+  top:1.30vw;
+  bottom: 98.89%;
+  width: 8.12vw;
+  text-decoration: none;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.91vw;
+  line-height: 1.23vw;
+  text-align: center;
+  
+  color: #757575;	
+  }
+  
+  
+  #sixth{
+  position: absolute;
+  left: 75.89%;
+  right: 5.86%;
+  top:1.30vw;
+  bottom: 98.89%;
+  width: 5.27vw;
+  text-decoration: none;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.91vw;
+  line-height: 1.23vw;
+  text-align: center;
+  
+  color: #757575;	
+  }
+  
+  
+  
+  #seventh{
+  position: absolute;
+  left: 82.86%;
+  right: 5.86%;
+  top:1.30vw;
+  bottom: 98.89%;
+  width: 5.27vw;
+  text-decoration: none;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.91vw;
+  line-height: 1.23vw;
+  text-align: center;
+  
+  color: #757575;	
+  }
+  
+  
+  #eigth{
+  position: absolute;
+  left: 89.38%;
+  right: 5.86%;
+  top:1.30vw;
+  bottom: 98.89%;
+  width: 5.27vw;
+  text-decoration: none;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.91vw;
+  line-height: 1.23vw;
+  text-align: center;
+  
+  color: #757575;	
+  }
+  
+  
+  
+  #block{
+	  margin-bottom: 6.5vw;
+  }
+  
+  .clr{
+	  color: #324FC5 !important;
+  }
+  
+  #undr{
+  }
+  
+  .abv{
+	  z-index: 3 !important;
+	  top:3.9vw !important;
+	  
+  
+  }
+  
+  #first:hover{
+  color: #324FC5 !important;
+  }
+  
+  
+  #second:hover{
+  color: #324FC5 !important;	
+	  }
+  
+  
+  #third:hover{
+  color: #324FC5 !important;
+  
+  }
+  
+  
+  #fourth:hover{
+	  color: #324FC5 !important;
+  }
+  
+  
+  #fifth:hover{
+  color: #324FC5 !important;
+  }
+
+  #sixth:hover{
+    color: #324FC5 !important;
+    }
+
+    #seventh:hover{
+      color: #324FC5 !important;
+      }
+
+      #eight:hover{
+        color: #324FC5 !important;
+        }

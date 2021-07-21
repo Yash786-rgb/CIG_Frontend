@@ -1,0 +1,363 @@
+.h {
+  position: absolute;
+  width: 27.306vw;
+  height: 3.514vw;
+  left: 8.785vw;
+  top: 14.348vw;
+  bottom: 159.078vw;
+
+  /* heading 36 px */
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.635vw;
+  line-height: 3.514vw;
+  /* identical to box height, or 133% */
+
+  /* headings */
+
+  color: #212121;
+}
+
+.expand2 {
+  width: 11.6vw;
+  height: 9.22vw;
+}
+
+.description {
+  position: absolute;
+  width: 37.701vw;
+  height: 9.73vw;
+  left: 8.858vw;
+  top: 21.376vw;
+
+  /* text 18 px */
+
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.318vw;
+  line-height: 2.343vw;
+  /* or 178% */
+
+  /* Gray 2 */
+
+  color: #4f4f4f;
+}
+
+.image {
+  position: absolute;
+  width: 31.332vw;
+  height: 21.23vw;
+  left: 61.713vw;
+  top: 13.397vw;
+}
+
+.timeline_head {
+  position: absolute;
+  width: 37.775vw;
+  height: 3.514vw;
+  left: 8.785vw;
+  top: 45.534vw;
+
+  /* heading 36 px */
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.635vw;
+  line-height: 3.514vw;
+  /* identical to box height, or 133% */
+
+  /* headings */
+
+  color: #212121;
+}
+
+.timeline {
+  position: relative;
+
+  margin: 48.568vw auto 13.021vw auto;
+  padding: 2.604vw 0;
+  width: 65.104vw;
+}
+
+.timeline:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  height: 100%;
+  border: 0.065vw solid #a4a4a4;
+}
+
+.timeline ul {
+  margin: 0;
+  padding: 0;
+}
+
+.timeline ul li {
+  list-style: none;
+  margin-bottom: 1.953vw;
+  position: relative;
+  width: 50%;
+  padding: 1.302vw 3.646vw;
+  box-sizing: border-box;
+}
+
+.timeline ul li:nth-child(even) {
+  clear: both;
+}
+
+.timeline ul li:nth-child(even) .topic {
+  text-align: right;
+}
+
+.timeline ul li:nth-child(odd) {
+  float: right;
+  clear: both;
+}
+
+.text {
+  padding-bottom: 1.302vw;
+}
+
+.timeline ul li:nth-child(even):before {
+  content: "";
+  position: absolute;
+  top: 1.953vw;
+  right: -0.456vw;
+  width: 1.497vw;
+  height: 1.497vw;
+  background: #d7d7d7;
+  filter: blur(0.26vw);
+}
+
+.timeline ul li:nth-child(even):before {
+  content: "";
+  position: absolute;
+  top: 1.953vw;
+  right: -0.456vw;
+  width: 0.846vw;
+  height: 0.846vw;
+  background: #607ced;
+}
+
+.timeline ul li:nth-child(odd):before {
+  content: "";
+  position: absolute;
+  top: 1.953vw;
+  left: -0.456vw;
+  width: 1.497vw;
+  height: 1.497vw;
+  background: #d7d7d7;
+  filter: blur(0.26vw);
+}
+
+.timeline ul li:nth-child(odd):before {
+  content: "";
+  position: absolute;
+  top: 1.953vw;
+  left: -0.456vw;
+  width: 0.846vw;
+  height: 0.846vw;
+  background: #607ced;
+  border-radius: 1.302vw;
+}
+
+.timeline ul li .topic {
+  margin: 0;
+  padding: 0;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.367vw;
+  line-height: 1.888vw;
+  color: #324fc5;
+}
+
+.timeline ul li .detail.visible {
+  margin: 3.06vw 0 0;
+  max-height: 1.953vw;
+  padding: 1.302vw;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.042vw;
+  line-height: 1.628vw;
+  left: -13.021vw;
+  color: #9b9b9b;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.timeline ul li .detail.unvisible {
+  margin: 3.06vw 0 0;
+  max-height: 1.953vw;
+  padding: 1.302vw;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.042vw;
+  line-height: 1.628vw;
+  left: -13.021vw;
+  color: #9b9b9b;
+  transition: 0.5s;
+}
+
+.timeline ul li:nth-child(even) .design.visible {
+  margin: 3.06vw -10.026vw 0;
+  width: 35.547vw;
+  height: 13.021vw;
+
+  background: #ffffff;
+  /* card us */
+
+  box-shadow: 0.26vw 0.26vw 2.148vw rgba(50, 79, 197, 0.09);
+  border-radius: 0.326vw;
+  /* or 156% */
+  transition: 0.5s;
+}
+
+.timeline ul li:nth-child(even) .design.unvisible {
+  margin: 3.06vw -10.026vw 0;
+  width: 35.547vw;
+  height: 28.33vw;
+
+  background: #ffffff;
+  /* card us */
+
+  box-shadow: 0.26vw 0.26vw 2.148vw rgba(50, 79, 197, 0.09);
+  border-radius: 0.326vw;
+  /* or 156% */
+  transition: 0.5s;
+}
+
+.timeline ul li:nth-child(odd) .design.visible {
+  margin: 3.06vw 0 0;
+  width: 35.547vw;
+  height: 13.021vw;
+
+  background: #ffffff;
+  /* card us */
+
+  box-shadow: 0.26vw 0.26vw 2.148vw rgba(50, 79, 197, 0.09);
+  border-radius: 0.326vw;
+  /* or 156% */
+  transition: 0.5s;
+}
+
+.timeline ul li:nth-child(odd) .design.unvisible {
+  margin: 3.06vw 0 0;
+  width: 35.547vw;
+  height: 25.195vw;
+
+  background: #ffffff;
+  /* card us */
+
+  box-shadow: 0.26vw 0.26vw 2.148vw rgba(50, 79, 197, 0.09);
+  border-radius: 0.326vw;
+  /* or 156% */
+  transition: 0.5s;
+}
+
+.timeline ul li .date {
+  background: #324fc5;
+  box-shadow: 0px 0.26vw 0.26vw rgba(0, 0, 0, 0.25);
+  border-radius: 0.977vw;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.846vw;
+  line-height: 1.172vw;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.back {
+  width: 3.35vw;
+  height: 4.2vw;
+}
+
+.timeline ul li .back.visible {
+  margin: 5.208vw;
+  margin-left: 32.2vw;
+  transition: 0.4s;
+}
+
+.timeline ul li .back.unvisible {
+  display: none;
+  transition: 0.4s;
+}
+
+.timeline ul li .back2.visible {
+  margin: 5.208vw;
+  margin-top: 16.276vw;
+  margin-left: 32.1vw;
+  height: 2.734vw;
+  width: 2.734vw;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.timeline ul li .back2.unvisible {
+  display: none;
+  transition: 0.4s;
+}
+
+.timeline ul li .expand.visible {
+  position: relative;
+  margin: 3.906vw 1.53vw;
+  margin-top: -8.513vw;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.042vw;
+  line-height: 1.302vw;
+  transition: 0.4s;
+  cursor: pointer;
+  /* identical to box height, or 125% */
+
+  display: flex;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  /* new blue */
+
+  color: #324fc5;
+}
+
+.timeline ul li .expand.unvisible {
+  display: none;
+  transition: 0.4s;
+}
+
+.timeline ul li .expand2.visible {
+  position: relative;
+  margin: -13.021vw 4.557vw;
+  transition: 0.4s;
+}
+
+.timeline ul li .expand2.unvisible {
+  display: none;
+  transition: 0.4s;
+}
+
+.timeline ul li:nth-child(even) .date {
+  position: absolute;
+  top: 0.781vw;
+  right: -11.719vw;
+  margin: 0;
+  padding: 0.521vw 1.042vw;
+}
+
+.timeline ul li:nth-child(odd) .date {
+  position: absolute;
+  top: 1.628vw;
+  left: -11.719vw;
+  margin: 0;
+  padding: 0.521vw 1.042vw;
+}

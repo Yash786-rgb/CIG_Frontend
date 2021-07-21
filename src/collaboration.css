@@ -1,0 +1,307 @@
+#title_collab{
+  
+width: 27.306vw;
+height: 3.514vw;
+margin-left: 8.785vw;
+margin-top: 14.348vw;
+
+
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 2.635vw;
+line-height: 3.514vw;
+
+
+color: #212121;
+}
+
+
+#sub_collab{
+  width: 37.701vw;
+height: 7.028vw;
+margin-left: 8.858vw;
+margin-top: 3.514vw;
+margin-bottom: 7.321vw;
+/* text 18 px */
+
+font-family: Noto Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 1.318vw;
+line-height: 2.343vw;
+/* or 178% */
+
+color: #4F4F4F;
+}
+
+
+#collab_bg{
+  position: absolute;
+width: 33.89vw;
+height: 33.19vw;
+left: 62.22vw;
+top: 6.223vw;
+
+}
+
+#cc{
+
+width: 37.848vw;
+height: 3.514vw;
+margin-left: 8.858vw;
+margin-top: 14.348vw;
+
+/* heading 36 px */
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 2.635vw;
+line-height: 3.514vw;
+/* identical to box height, or 133% */
+
+display: flex;
+align-items: center;
+
+/* headings */
+
+color: #212121;
+}
+
+
+#cls_head{
+
+
+width: 33.602vw;
+height: 3.514vw;
+margin-left: 8.785vw;
+margin-top: 15.081vw;
+
+/* heading 36 px */
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 2.635vw;
+line-height: 3.514vw;
+/* identical to box height, or 133% */
+
+
+/* headings */
+
+color: #212121;
+}
+
+
+#cls_subhead{
+
+width: 48.243vw;
+height: 7.028vw;
+margin-left: 8.785vw;
+margin-top: 2.343vw;
+
+/* text 18 px */
+
+font-family: Noto Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 1.318vw;
+line-height: 2.343vw;
+/* or 178% */
+
+
+/* Gray 2 */
+
+color: #4F4F4F;
+}
+
+#cls_img{
+  position: absolute;
+width:23.44vw;
+height: 19.28vw;
+left: 67.22vw;
+top: 79.502vw;
+}
+
+
+.row_view::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row_view{
+  margin-top: 11.84vw;
+  margin-bottom: 9.57vw;
+
+}
+
+
+
+.column_view {
+ float:left;
+ width: 24%;
+ 
+  margin-left: 7%;
+}
+
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 7.321vw; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
+  padding-right: 29.283vw;
+}
+
+/* Modal Content */
+#modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 1.464vw;
+  border: 0.073vw solid #888;
+  width: 80%;
+  position: absolute;
+width: 50.073vw;
+height: 90vh;
+left: 24.963vw;
+top: 10.908vw;
+
+}
+
+.scroll_view{
+  
+ overflow-x: scroll; 
+  white-space: nowrap;
+  margin-left: 7.87vw;
+  width: 83vw;
+  margin-top: 10.39vw;
+
+}
+
+.scroll_view {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+.scroll_view::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.hor_card{
+  display: inline-block ;
+  margin-right: 2.08vw;
+}
+
+
+#left_arrow{
+position: absolute;
+width: 3.33vw;
+height: 3.33vw;
+left: 3.44vw;
+top: 117.8vw;
+
+
+
+}
+
+#right_arrow{
+  position: absolute;
+width: 3.33vw;
+height: 3.33vw;
+left: 93.6vw;
+top: 117.8vw;
+z-index: 4;
+
+
+}
+
+
+.row_shots:after {
+  content: "";
+  clear: both;
+  display: table;
+  
+}
+
+.row_shots{
+  margin-top: 4.86vw;
+    -webkit-box-sizing: border-box;  
+  -moz-box-sizing: border-box;  
+  box-sizing: border-box;  
+   max-width:100%; 
+ 
+}
+
+
+.column_shots{
+   -webkit-box-sizing: border-box;  
+  -moz-box-sizing: border-box;  
+  box-sizing: border-box;  
+ float:left;
+  margin-right: 0px;
+    margin-left: 0px;
+ width: 25%;
+height: 17.5vw;
+
+ background: rgba(0,0,0,0.5);
+
+position: relative;
+z-index: 3;
+
+
+}
+
+
+.column_shots:hover{
+ transform: scale(1.31) ;
+   transition-duration: 0.32s;
+ z-index: 5;
+}
+
+
+.wrap:hover::before{
+display: none;
+}
+
+
+
+
+.shots{
+  width: 100%;
+  }
+
+  .wrap {
+  position:relative;
+}
+
+.wrap:before {
+  content:"";
+  position: absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+background: #324FC5;
+mix-blend-mode: overlay;
+  z-index:999;
+}
+
+
+#line_a{
+  position: absolute;
+width: 0.13vw;
+height: 15.01vw;
+left: 52.73vw;
+top: 153.19vw;
+}

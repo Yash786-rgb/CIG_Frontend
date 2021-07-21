@@ -1,0 +1,213 @@
+#interview{
+    position: absolute;
+    width: 27.306vw;
+    height: 3.514vw;
+    left: 8.199vw;
+    top: 14.495vw;
+
+    /* heading 36 px */
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.635vw;
+    line-height: 3.514vw;
+    /* identical to box height, or 133% */
+
+
+    /* headings */
+
+    color: #212121;
+}
+
+#icards{
+    display: flex;
+    margin-top: 22.070vw;
+    flex-direction: column;
+}
+
+#icard{
+    margin-left: 15.625vw;
+    margin-bottom:1.628vw;
+    width:67.839vw;
+    height: 45.703vw;
+    background: #FFFFFF;
+    box-shadow:0.260vw 0.260vw 1.302vw rgba(166, 166, 166, 0.25);
+    border-radius: 0.651vw;
+}
+
+#icard2{
+    width:50.326vw;
+    height: 12.565vw;
+    margin-left: 16.276vw;
+    background: #FFFFFF;
+    box-shadow:0.260vw 0.260vw.9502vw rgba(166, 166, 166, 0.25);
+    border-radius: 0.651vw;
+    margin-bottom: 1.628vw;
+}
+
+#dimage{
+    width: 62.109vw;
+    height:27.167vw;
+    margin:2.083vw 2.799vw;
+}
+
+#dimage2{
+    width: 13.021vw;
+    height: 10.091vw;
+    float: right;
+    margin-top:1.3vw;
+    margin-right: 3.546vw;
+}
+
+#itext{
+    margin:0 3.906vw;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.083vw;
+    line-height:3.125vw;
+    /* identical to box height, or 150% */
+
+
+    /* headings */
+
+    color: #212121;
+}
+
+#idate{
+    margin:0.651vw 3.906vw;
+    font-family: Noto Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 0.911vw;
+    line-height: 2.083vw;
+    /* identical to box height, or 229% */
+
+
+    /* Gray 2 */
+
+    color: #4F4F4F;
+}
+
+#iread{
+    margin-left:3.906vw;
+    margin-top: 2.604vw;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.042vw;
+    line-height: 1.302vw;
+    /* identical to box height, or 125% */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-decoration: none;
+    /* new blue */
+
+    color: #324FC5;
+}
+
+#itext2{
+    margin-top: 2.279vw;
+    margin-left:3.255vw;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.367vw;
+    line-height: 2.083vw;
+    /* identical to box height, or 152% */
+
+
+    /* headings */
+
+    color: #212121;
+}
+
+#idate2{
+    font-family: Noto Sans;
+    margin-left:3.255vw;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 0.911vw;
+    line-height: 2.083vw;
+    /* identical to box height, or 229% */
+
+
+    /* Gray 2 */
+
+    color: #4F4F4F;
+}
+
+#iread2{
+    font-family: Poppins;
+    text-decoration: none;
+    margin-left:3.255vw;
+    margin-top:1.302vw;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.042vw;
+    line-height: 1.302vw;
+    /* identical to box height, or 125% */
+
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+    /* new blue */
+
+    color: #324FC5;
+}
+
+.iblog.visible{
+    display: flex;
+    align-items: center;
+    text-align: right;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.367vw;
+    line-height: 1.888vw;
+    transition: 0.5s;
+    color: #324FC5;
+    margin:12.305vw 39.063vw;
+}
+
+.iblog.unvisible{
+    display: none;
+    transition: 0.5s;
+}
+
+#bimg{
+    margin-left: 0.651vw;
+    cursor: pointer;
+    display: flex;
+    color: #FFFFFF;
+}
+
+.icard3.unvisible{
+   display: none;
+   transition: 0.5s;
+}
+
+.icard3.visible{
+    width: 50.326vw;
+    height: 12.565vw;
+    margin-left: 16.276vw;
+    background: #FFFFFF;
+    box-shadow: 0.260vw 0.260vw 1.302vw rgba(166, 166, 166, 0.25);
+    border-radius: 0.651vw;
+    margin-bottom: 1.628vw;
+}
+
+#do{
+    z-index:2;
+    margin-left:-1.693vw;
+    transform: rotate(180deg);
+    margin-bottom: 0.521vw;
+}
