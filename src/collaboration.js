@@ -197,16 +197,16 @@ workshops and lecture series with different corporations and industries</div>
 <img  id="line_a" src={line}/>
 
   <div className="row_view">
-    <div  onClick ={this.form_vis1} className="column_view">
+    <div  onClick ={this.form_vis1} className="column_view_m">
     < View   icon={lec_img} data={this.state.lecture}/>
       </div>
-      <div onClick ={this.form_vis2}  className="column_view">
+      <div onClick ={this.form_vis2}  className="column_view_m">
       <View icon={work_img} data={this.state.workshop}/>
        </div>
 
-      <div  onClick ={this.form_vis3} className="column_view">
+      {/* <div  onClick ={this.form_vis3} className="column_view">
       <View icon={proj_img} data={this.state.project}/>
-      </div>
+      </div> */}
        </div>
 
 

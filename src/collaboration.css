@@ -148,6 +148,15 @@ top: 79.502vw;
 }
 
 
+.column_view_m {
+  float:left;
+  width: 24%;
+  
+   margin-left: 16%;
+ }
+ 
+
+
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */

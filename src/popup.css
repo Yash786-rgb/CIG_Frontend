@@ -3,7 +3,7 @@ position: absolute;
   width: 38.542vw;
 height: 66.583vw;
 left:31vw;
-height: 70.9vw;
+height: 60.9vw;
 
 /* white */
 
@@ -276,7 +276,7 @@ border-radius: 0.065vw;
 width: 31.966vw;
 height: 1.302vw;
 left: 3.385vw;
-top: 56.581vw;
+top: 42.581vw;
 
 /* 14 px */
 
@@ -306,7 +306,7 @@ color: #828282;
 width: 31.966vw;
 height: 0.065vw;
 left: 3.385vw;
-top: 58.143vw;
+top: 44.143vw;
 
 /* grey 2 */
 
@@ -512,7 +512,7 @@ position: absolute;
 width: 5.339vw;
 height: 1.693vw;
 left: 3.385vw;
-top: 54.107vw;
+top: 39.707vw;
 
 font-family: Poppins;
 font-style: normal;
@@ -531,7 +531,7 @@ color: #324FC5;
 #btn_form_a{
   position: absolute;
 left: 3.385vw;
-top: 60.049vw;
+top: 48.049vw;
 
 /* unwrapped button 2 */
 

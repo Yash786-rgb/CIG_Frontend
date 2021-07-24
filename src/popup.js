@@ -119,7 +119,7 @@ return(
         <div id="Corporation_head" className="required">Corporation </div>
          <div id="mail_head" className="required">E-mail </div>
           <div id="phone_head" className="required">Phone </div>
-          <div id="interest">I am interested in</div>
+          {/* <div id="interest">I am interested in</div>
 
 
 
@@ -151,7 +151,7 @@ return(
 <label className="container_r" id="rad">Other
   <input type="radio"  name="radio"/>
   <span className="checkmark_r"></span>
-</label>
+</label> */}
 
 
 

@@ -103,13 +103,13 @@ return(
         <div id="Corporation_head"  className="required">Corporation </div>
          <div id="mail_head" className="required">E-mail </div>
           <div id="phone_head"  className="required" >Phone </div>
-          <div id="interest">I am interested in</div>
+          {/* <div id="interest">I am interested in</div> */}
 
 
  
 
 
-
+{/* 
 <label className="container"  id="box_a">Delivering Lecture
   <input  name="deliver_lec"  onClick={this.toggle}  type="checkbox" c/>
   <span className="checkmark"></span>
@@ -130,7 +130,7 @@ return(
 <label className="container" id="rad">Other
   <input  onClick={this.toggle} type="checkbox" name="others"/>
   <span className="checkmark"></span>
-</label>
+</label> */}
 
 
 

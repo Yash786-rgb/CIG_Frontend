@@ -1,9 +1,9 @@
 #form_bg{
 position: absolute;
   width: 40.142vw;
-height: 70.583vw;
+height: 55.583vw;
 
-top:21.37vw;
+top:24.37vw;
 left:47.783vw;
 /* white */
 
@@ -282,7 +282,7 @@ border-radius: 0.065vw;
 width: 31.966vw;
 height: 1.302vw;
 left: 3.385vw;
-top: 58.581vw !important;
+top: 43.581vw !important;
 word-wrap: break-word !important;
 /* 14 px */
 
@@ -312,7 +312,7 @@ color: #828282;
 width: 31.966vw;
 height: 0.065vw;
 left: 3.385vw;
-top: 60.143vw !important;
+top: 45.4vw !important;
 
 /* grey 2 */
 
@@ -518,7 +518,7 @@ position: absolute;
 width: 5.339vw;
 height: 1.693vw;
 left: 3.385vw;
-top: 56.107vw!important;
+top: 40.107vw!important;
 
 font-family: Poppins;
 font-style: normal;
@@ -537,7 +537,7 @@ color: #324FC5;
 #btn_form{
   position: absolute;
 left: 3.385vw;
-top: 63.049vw !important;
+top: 50.049vw !important;
 
 /* unwrapped button 2 */
 

@@ -54,8 +54,8 @@ return(
             )}/>
           <Route path="/about"  render={(props)=><About/>} />
           <Route path="/home"  render={(props)=><Home/>}/>
-          <Route path="/resources"  render={(props)=><Resources/>}/>          
-  <Route path="/project"  render={(props)=><Project/>}/>
+          {/* <Route path="/resources"  render={(props)=><Resources/>}/>          
+  <Route path="/project"  render={(props)=><Project/>}/> */}
           <Route path="/contact"  render={(props)=><Contact/>}/>
           <Route path="/collaboration"  render={(props)=><Colloboration  />}/>
            <Route path="/event"  render={(props)=><Event/>}/>
