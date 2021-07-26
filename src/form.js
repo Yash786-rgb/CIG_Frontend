@@ -4,6 +4,18 @@ import './form.css';
 import axios from "axios";
 import {url} from './config';
 
+import emailjs from 'emailjs-com';
+
+var receivingEmail;
+
+var user_id =process.env.REACT_APP_USER_ID;
+
+var template_id =process.env.REACT_APP_TEMPLATE_ID;
+
+var service_id = process.env.REACT_APP_SERVICE_ID;
+
+emailjs.init(user_id);
+
 
 class Form extends Component {
 constructor(props)
@@ -27,11 +39,61 @@ handleChange(e)
 }
 
 
+sendMail (templateId, variables) {
+        
+  var flag = false;
+
+  emailjs.send(
+  service_id, templateId,
+  variables
+  ).then(res => {
+      console.log('Email successfully sent!')
+      alert("sent");
+      flag = true;
+    })
+    // Handle errors here however you like, or use a React error boundary
+    .catch(err => {
+        console.error('Oh well, you failed. Here some thoughts on the error that occured:', err)
+        alert("something went wrong, please try again")
+      })
+}
+
+ValidateEmail(input){
+
+  var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+
+  return input.match(validRegex);
+}
+
+
+handleSubmit = (event)=>{
+  event.preventDefault();
+  var isCorrectEmail = true;
+  
+  if(!this.ValidateEmail(this.state.Email)){
+      isCorrectEmail = false;
+      alert("invalid email");
+  }
+
+  if(isCorrectEmail == true){
+  var templateId = template_id;
+  var stateObj = this.state;
+  var msgToSend = `Hii, Iam ${stateObj.Name} from ${stateObj.Organization} and Iam contacting you for ${stateObj.Message}, Here is my contact number ${stateObj.Phone}`
+  this.sendMail(templateId, {message: msgToSend, from_name: this.state.Email, to_name : receivingEmail});
+  }
+}
+
+
+
+
 
 
 submit(e){
-  this.props.scroll()
+  // this.props.scroll()
   e.preventDefault()
+
+  e.target.reset();
+  
   var my_interest = [];
   var possible_interest = ["deliver_lec","start_proj","conduct_workshop","others"];
   for(var i=0;i<possible_interest.length;i++){
@@ -40,11 +102,6 @@ submit(e){
     }
   }
 
-if(my_interest.length == 0){
-alert("please fill atleast one interest");
-
-}else
-{
   var stateObj = this.state;
   var dataObj = {
     name : stateObj.name,
@@ -54,9 +111,9 @@ alert("please fill atleast one interest");
     interest :  my_interest,
     msg:stateObj.msg
   }
-	this.props.visible(); 
+
   
-console.log("dataObj = ", dataObj);
+  console.log("dataObj = ", dataObj);
 
   console.log("sending form data");
   axios({
@@ -66,9 +123,15 @@ console.log("dataObj = ", dataObj);
     url : url+"org",
   }).then((m)=>{
     console.log(m);
+
+    	this.props.visible(); 
+
+        // this.props.scroll()
+
+
+      // window.location()
   })
 
-}
 }
 
 toggle(e){
@@ -84,7 +147,6 @@ render(){
  
 return(
        <div  id="form_bg" >
-       <div>{this.state.name}</div>
        <div id="form_title" > Fill out this form & we will contact you soon.</div>
        <div id="form_sub" className="asterik">  marked fields are mandatory</div>
        <form onSubmit={this.submit}> 
@@ -92,7 +154,7 @@ return(
        <div id="name_focus"></div>
        <textarea name="corporation"  required id="form_corp" className="no_outline " placeholder="Enter your corporation name" onChange={this.handleChange}></textarea>
        <div id="corp_focus"></div>
-       <textarea  type="email" name="mail" required id="form_mail" className="no_outline" placeholder="Enter your e-mail address" onChange={this.handleChange}></textarea>
+       <input type="email" name="mail" required id="form_mail" className="no_outline" placeholder="Enter your e-mail address" onChange={this.handleChange}></input>
        <div id="mail_focus"></div>
        <textarea  name="phone" required  id="form_phone" className="no_outline" placeholder="Enter your Phone number" onChange={this.handleChange}></textarea>
        <div id="phone_focus"></div>

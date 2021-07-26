@@ -12,6 +12,7 @@ import link_con from './images/linkdin.svg';
 import fb_con_hov from './images/fb.svg';
 import mail_con from './images/mail.svg';
 import Success from './success.js';
+
 import Form from './form.js'
 import cig_map from './images/cig_map.png';
 import axios from "axios";
@@ -65,9 +66,16 @@ return(
 <div id="contact_head"> Contact Us</div>
 <div id="dir_name">{this.state.assistantDean}</div>
 
+<div id="dir_name2">(Associate Dean)</div>
+
+
 <div id="dir_mob">{this.state.assistantDean_phone}</div>
 
 <div id="head_name">{this.state.chairperson}</div>
+
+
+<div id="head_name2">(Chairperson)</div>
+
 
 <div id="head_mob">{this.state.chairperson_phone}</div>
 <div>
@@ -78,9 +86,7 @@ return(
 </div>
 <div id="soc">Social Links</div>
 <img id="contact_msg" src={contact_msg}/>
-<img id="lin_contact" src={lin_contact}/>
-<img id="fb_contact" src={fb_contact}/>
-<img id="mail_contact" src={mail_contact}/>
+
 
 <a href="https://www.linkedin.com/in/cig-iitroorkee/?originalSubdomain=in">
 <img id="lin_contact_hov" src={link_con}/>
@@ -90,7 +96,9 @@ return(
 <img id="fb_contact_hov" src={fb_con_hov}/>
 </a>
 
+<a href = "mailto:cig@iitr.ac.in">
 <img id="mail_contact_hov" src={mail_con}/>
+</a>
 
 <img id="adress" src={adress}/>
 {(this.state.visible)? <Success visible={this.hide}/> :  null }

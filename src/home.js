@@ -57,8 +57,6 @@ componentDidMount(){
 }
 
 
-
-
 scroll(){
 if(window.scrollY!=0)
 {
@@ -165,7 +163,6 @@ return(
 </div>
 <div id="heading_feat">Featured Works</div>
 <Featured/>
-
 
 
 <div  ref={this.scroll_bar}  className="test_scroll_view">

@@ -135,14 +135,19 @@ render(){
         return(
             <div className="start">
                 <div className="recruitment">Recruitment</div>
-                <div className="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                <div className="content">
+                Get a chance to be part of CIG Team. 
+With CIG, you will be able to gain first-hand work-experience by constructively contributing along with Deans, Professors and Industrial Assets.
+                </div>
                 <div className="img1"><img className ="imgWidth" src={img1} /></div>
                 <div className="prob">Problem Statements</div>
                 <div>
                     <div className="img2"><img  className ="imgWidth" src={img2} /></div>
                     <div className="P1">#Problem 1</div>
                     <div className="p1">(Event Management)</div>
-                    <div className="C1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                    <div className="C1">
+                    This Vertical of CIG works on the organization and proper implementation of all the events such as Sponsored Research and BTPs i.e.  (B.Tech Projects), Industrial Projects, Inter departmental Research, separate Industrial day for each department, Various Industrial Elective Courses and many more. 
+                    </div>
                     <div className="D1">Deadline: {this.state.deadline.events}</div>
                     
                     <a href = {this.state.googleFormLinks.events}>
@@ -163,7 +168,9 @@ render(){
                     <div className="img3"><img  className ="imgWidth" src={img3} /></div>
                     <div className="P2">#Problem 2</div>
                     <div className="p2">(Web Development)</div>
-                    <div className="C2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                    <div className="C2">
+                    As from the name this vertical of CIG aims for the development of the website CIG-IITR. It is their job to keep an updated profile of CIG and to ensure the proper functioning of it. 
+                    </div>
                     <div className="D2">Deadline: {this.state.deadline.webDev}</div>
                     <a href = {this.state.googleFormLinks.webDev}>
                             <div className="B2"></div>
@@ -182,7 +189,9 @@ render(){
                     <div className="img4"><img  className ="imgWidth" src={img4} /></div>
                     <div className="P3">#Problem 3</div>
                     <div className="p3">(Designing)</div>
-                    <div className="C3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                    <div className="C3">
+                    This vertical is inter-related to the above one as their work is to design the website various logos, images and watermarks which makes the website look attractive. 
+                    </div>
                     <div className="D3">Deadline: {this.state.deadline.design}</div>
                     <a href = {this.state.googleFormLinks.design}>
                             <div className="B3"></div>
@@ -201,7 +210,9 @@ render(){
                     <div className="img5"><img  className ="imgWidth" src={img5} /></div>
                     <div className="P4">#Problem 4</div>
                     <div className="p4">(Content Development)</div>
-                    <div className="C4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                    <div className="C4">
+                    This vertical of CIG specializes in providing the relevant content to everyone rest it be the viewers, or the website, or the pamphlets, notices, emails and all other material that goes out in writing. 
+                    </div>
                     <div className="D4">Deadline: {this.state.deadline.contentDev}</div>
                     <a href = {this.state.googleFormLinks.contentDev}>
                             <div className="B4"></div>

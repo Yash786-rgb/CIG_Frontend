@@ -49,6 +49,9 @@ handleChange_d(e)
 
 submit(e){
   e.preventDefault()
+
+  e.target.reset();
+
   window.scrollTo(0, 600);
   var my_interest = [];
   var possible_interest = ["deliver_lec","start_proj","conduct_workshop","others"];
@@ -108,7 +111,7 @@ return(
        <div id="name_focus"></div>
        <textarea  name="corporation"  required id="form_corp" className="no_outline" placeholder="Enter your corporation name" onChange={this.handleChange_a}></textarea>
        <div id="corp_focus"></div>
-       <textarea type="email" name="mail"  required id="form_mail" className="no_outline" placeholder="Enter your e-mail address" onChange={this.handleChange_b}></textarea>
+       <input type="email" name="mail"  required id="form_mail" className="no_outline" placeholder="Enter your e-mail address" onChange={this.handleChange_b}></input>
        <div id="mail_focus"></div>
        <textarea  name="phone" required  id="form_phone" className="no_outline" placeholder="Enter your Phone number" onChange={this.handleChange_c}></textarea>
        <div id="phone_focus"></div>

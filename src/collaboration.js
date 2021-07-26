@@ -211,9 +211,13 @@ workshops and lecture series with different corporations and industries</div>
 
 
       <div id="cls_head">Corporate Lecture Series </div>
-      <div id="cls_subhead">Proident laborum culpa incididunt do cupidatat dolore dolor amet nulla amet est voluptate 
-      dolor Lorem. Do ipsum irure officia reprehenderit anim officia elit. Laborum cupidatat cillum ipsum non magna
-       esse ipsum dolor.</div>
+      <div id="cls_subhead">We are proud to announce our ‘Corporate Lecture Series,’ commencing 
+      every semester featuring talks by eminent 
+      personalities from a broad spectrum of the Industry. 
+      ‘Corporate Lecture Series’ will serve as a platform for these noted individuals to 
+      address the students of IITR about their experiences and share their valuable insights on the 
+      current industry practices.
+      </div>
        <img id="cls_img" src={cls_img}/>
 
 <div  ref={this.scroll_bar}  className="scroll_view">
