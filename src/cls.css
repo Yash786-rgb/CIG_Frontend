@@ -1,0 +1,126 @@
+#CLS_bg{
+position: relative;
+	width: 40.044vw;
+height: 28.843vw;
+
+background: #FFFFFF;
+/* grey 6 */
+
+border: 0.073vw solid #F2F2F2;
+box-sizing: border-box;
+border-radius: 0.146vw;
+
+
+}
+
+
+#CLS_hd{
+	width: 40.044vw;
+height: 11.493vw;
+
+/* bg */
+
+background: #F3F6FD;
+border-radius: 0.146vw 0.146vw 0vw 0vw;
+}
+
+
+#CLS_date{
+position: absolute;
+left: 2.709vw;
+right: 74.6%;
+top: 1.464vw;
+bottom: 56.09%;
+width: 13.836vw;
+font-family: Noto Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 1.171vw;
+line-height: 1.757vw;
+/* identical to box height, or 150% */
+
+
+/* Gray 3 */
+
+color: #828282;
+}
+
+#CLS_heading{
+position: absolute;
+left: 2.709vw;
+top: 4.173vw;
+width: 36.530vw;
+height: 4.685vw;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 1.464vw;
+line-height: 2.343vw;
+  white-space: normal!important;
+/* or 160% */
+
+
+/* Gray 1 */
+
+color: #333333;
+}
+
+
+#CLS_img{
+	position: absolute;
+width: 9.370vw;
+height: 9.956vw;
+left: 2.635vw;
+top: 15.959vw;
+
+}
+
+#CLS_name{
+position: absolute;
+width: 15.227vw;
+height: 2.343vw;
+left: 14.348vw;
+top: 15.959vw;
+
+font-family: Noto Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 1.318vw;
+line-height: 2.343vw;
+/* identical to box height, or 178% */
+
+
+/* Gray 1 */
+
+color: #333333;
+}
+
+#CLS_des{
+
+position: absolute;
+width: 18.448vw;
+height: 3.514vw;
+left: 14.348vw;
+top: 18.155vw;
+width: 18.448vw;
+font-family: Noto Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 1.171vw;
+line-height: 1.757vw;
+/* or 150% */
+
+
+/* Gray 2 */
+
+color: #4F4F4F;
+
+}
+
+#CLS_icon{
+	position: absolute;
+width: 6.735vw;
+height: 2.050vw;
+left: 14.348vw;
+top: 23.865vw;
+}

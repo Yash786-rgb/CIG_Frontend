@@ -1,0 +1,880 @@
+.start {
+  margin-bottom: 14.641vw;
+}
+
+.recruitment {
+  position: absolute;
+  width: 27.306vw;
+  height: 3.514vw;
+  left: 8.199vw;
+  top: 14.495vw;
+
+  /* heading 36 px */
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.635vw;
+  line-height: 3.514vw;
+  /* identical to box height, or 133% */
+
+  /* headings */
+
+  color: #212121;
+}
+
+.content {
+  position: absolute;
+  width: 37.701vw;
+  height: 9.37vw;
+  left: 8.272vw;
+  top: 21.523vw;
+
+  /* text 18 px */
+
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.318vw;
+  line-height: 2.343vw;
+  /* or 178% */
+
+  /* Gray 2 */
+
+  color: #4f4f4f;
+}
+
+.img1 {
+  position: absolute;
+  width: 24.725vw;
+  height: 26.354vw;
+  left: 64.202vw;
+  top: 9.81vw;
+}
+
+.imgWidth {
+  width: 100%;
+  height: 100%;
+}
+
+.prob {
+  position: absolute;
+  width: 36.457vw;
+  height: 3.514vw;
+  left: 8.199vw;
+  top: 48.023vw;
+
+  /* heading 36 px */
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.635vw;
+  line-height: 3.514vw;
+  /* identical to box height, or 133% */
+
+  /* headings */
+
+  color: #212121;
+}
+
+.img2 {
+  position: absolute;
+  width: 20.804vw;
+  height: 15.223vw;
+  left: 7.833vw;
+  top: 66.252vw;
+}
+
+.P1 {
+  position: absolute;
+  width: 36.457vw;
+  height: 3.514vw;
+  left: 35.139vw;
+  top: 60.542vw;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.123vw;
+  line-height: 3.514vw;
+  /* identical to box height, or 166% */
+
+  /* headings */
+
+  color: #212121;
+}
+
+.p1 {
+  position: absolute;
+  width: 19.693vw;
+  height: 3.514vw;
+  left: 48.463vw;
+  top: 60.761vw;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.464vw;
+  line-height: 3.514vw;
+  /* identical to box height, or 240% */
+
+  /* headings */
+
+  color: #212121;
+}
+
+.C1 {
+  position: absolute;
+  width: 55.564vw;
+  height: 14.056vw;
+  left: 35.359vw;
+  top: 66.252vw;
+
+  /* text 18 px */
+
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.318vw;
+  line-height: 2.343vw;
+  /* or 178% */
+
+  /* Gray 2 */
+
+  color: #4f4f4f;
+}
+
+.D1 {
+  position: absolute;
+  width: 55.564vw;
+  height: 2.343vw;
+  left: 35.359vw;
+  top: 81.04vw;
+
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.318vw;
+  line-height: 2.343vw;
+  /* identical to box height, or 178% */
+
+  color: #505050;
+}
+
+.B1 {
+  position: absolute;
+  width: 17.13vw;
+  height: 3.148vw;
+  left: 35.359vw;
+  top: 85.139vw;
+
+  background: #324fc5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.T1 {
+  position: absolute;
+  width: 13.763vw;
+  height: 1.318vw;
+  left: 35.798vw;
+  top: 85.871vw;
+
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.098vw;
+  line-height: 1.464vw;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.V1 {
+  position: absolute;
+  width: 13.763vw;
+  height: 1.318vw;
+  left: 49.78vw;
+  top: 85.944vw;
+}
+
+.t1 {
+  position: absolute;
+  width: 10.907vw;
+  height: 1.349vw;
+  left: 55.846vw;
+  top: 85.859vw;
+
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.098vw;
+  line-height: 1.098vw;
+  text-align: center;
+
+  color: #324fc5;
+}
+
+.v1 {
+  position: absolute;
+  width: 10.507vw;
+  height: 1.149vw;
+  left: 62.778vw;
+  top: 86.078vw;
+}
+
+.b1 {
+  position: absolute;
+  width: 17.13vw;
+  height: 3.148vw;
+  left: 53.807vw;
+  top: 85.139vw;
+
+  background: #ffffff;
+  border: 0.073vw solid #324fc5;
+  box-sizing: border-box;
+  box-shadow: 0vw 0.073vw 0.073vw rgba(0, 0, 0, 0.25);
+}
+
+.img3 {
+  position: absolute;
+  width: 21.023vw;
+  height: 13.47vw;
+  left: 7.613vw;
+  top: 103.001vw;
+}
+
+.img4 {
+  position: absolute;
+  width: 22.987vw;
+  height: 11.481vw;
+  left: 7.101vw;
+  top: 139.751vw;
+}
+
+.img5 {
+  position: absolute;
+  width: 22.07vw;
+  height: 17.789vw;
+  left: 7.028vw;
+  top: 176.281vw;
+}
+
+.P2 {
+  position: absolute;
+  width: 36.457vw;
+  height: 3.514vw;
+  left: 35.139vw;
+  top: 96.633vw;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.123vw;
+  line-height: 3.514vw;
+  /* identical to box height, or 166% */
+
+  /* headings */
+
+  color: #212121;
+}
+
+.p2 {
+  position: absolute;
+  width: 19.693vw;
+  height: 3.514vw;
+  left: 49.048vw;
+  top: 96.852vw;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.464vw;
+  line-height: 3.514vw;
+  /* identical to box height, or 240% */
+
+  /* headings */
+
+  color: #212121;
+}
+
+.C2 {
+  position: absolute;
+  width: 55.564vw;
+  height: 14.056vw;
+  left: 35.359vw;
+  top: 102.343vw;
+
+  /* text 18 px */
+
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.318vw;
+  line-height: 2.343vw;
+  /* or 178% */
+
+  /* Gray 2 */
+
+  color: #4f4f4f;
+}
+
+.D2 {
+  position: absolute;
+  width: 55.564vw;
+  height: 2.343vw;
+  left: 35.359vw;
+  top: 117.13vw;
+
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.318vw;
+  line-height: 2.343vw;
+  /* identical to box height, or 178% */
+
+  color: #505050;
+}
+
+.B2 {
+  position: absolute;
+  width: 17.13vw;
+  height: 3.148vw;
+  left: 35.359vw;
+  top: 121.23vw;
+
+  background: #324fc5;
+  box-shadow: 0vw 0.293vw 0.293vw rgba(0, 0, 0, 0.25);
+}
+
+.T2 {
+  position: absolute;
+  width: 13.763vw;
+  height: 1.318vw;
+  left: 35.798vw;
+  top: 121.962vw;
+
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.098vw;
+  line-height: 1.464vw;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.V2 {
+  position: absolute;
+  width: 13.763vw;
+  height: 1.318vw;
+  left: 49.78vw;
+  top: 122.035vw;
+}
+
+.b2 {
+  position: absolute;
+  width: 17.13vw;
+  height: 3.148vw;
+  left: 53.807vw;
+  top: 121.23vw;
+
+  background: #ffffff;
+  border: 0.073vw solid #324fc5;
+  box-sizing: border-box;
+  box-shadow: 0vw 0.22vw 0.293vw rgba(0, 0, 0, 0.25);
+}
+
+.t2 {
+  position: absolute;
+  width: 10.907vw;
+  height: 1.349vw;
+  left: 55.846vw;
+  top: 121.949vw;
+
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.098vw;
+  line-height: 1.464vw;
+  text-align: center;
+
+  color: #324fc5;
+}
+
+.v2 {
+  position: absolute;
+  width: 10.507vw;
+  height: 1.149vw;
+  left: 62.778vw;
+  top: 122.169vw;
+}
+
+.P3 {
+  position: absolute;
+  width: 13.47vw;
+  height: 3.514vw;
+  left: 35.139vw;
+  top: 132.723vw;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.123vw;
+  line-height: 3.514vw;
+  /* identical to box height, or 166% */
+
+  /* headings */
+
+  color: #212121;
+}
+
+.p3 {
+  position: absolute;
+  width: 13.104vw;
+  height: 3.514vw;
+  left: 49.048vw;
+  top: 132.943vw;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.464vw;
+  line-height: 3.514vw;
+  /* identical to box height, or 240% */
+
+  /* headings */
+
+  color: #212121;
+}
+
+.C3 {
+  position: absolute;
+  width: 55.564vw;
+  height: 192px;
+  left: 35.359vw;
+  top: 138.433vw;
+
+  /* text 18 px */
+
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.318vw;
+  line-height: 2.343vw;
+  /* or 178% */
+
+  /* Gray 2 */
+
+  color: #4f4f4f;
+}
+
+.D3 {
+  position: absolute;
+  width: 55.564vw;
+  height: 2.343vw;
+  left: 35.359vw;
+  top: 153.221vw;
+
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.318vw;
+  line-height: 2.343vw;
+  /* identical to box height, or 178% */
+
+  color: #505050;
+}
+
+.B3 {
+  position: absolute;
+  width: 17.13vw;
+  height: 3.148vw;
+  left: 35.359vw;
+  top: 157.321vw;
+
+  background: #324fc5;
+  box-shadow: 0vw 0.293vw 0.293vw rgba(0, 0, 0, 0.25);
+}
+
+.T3 {
+  position: absolute;
+  width: 13.763vw;
+  height: 1.318vw;
+  left: 35.798vw;
+  top: 158.053vw;
+
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.098vw;
+  line-height: 1.464vw;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.V3 {
+  position: absolute;
+  width: 13.763vw;
+  height: 1.318vw;
+  left: 50.146vw;
+  top: 158.126vw;
+}
+
+.b3 {
+  position: absolute;
+  width: 17.13vw;
+  height: 3.148vw;
+  left: 53.807vw;
+  top: 157.321vw;
+
+  background: #ffffff;
+  border: 0.073vw solid #324fc5;
+  box-sizing: border-box;
+  box-shadow: 0vw 0.22vw 0.293vw rgba(0, 0, 0, 0.25);
+}
+
+.t3 {
+  position: absolute;
+  width: 10.907vw;
+  height: 1.349vw;
+  left: 55.846vw;
+  top: 158.04vw;
+
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.098vw;
+  line-height: 1.464vw;
+  text-align: center;
+
+  color: #324fc5;
+}
+
+.v3 {
+  position: absolute;
+  width: 10.507vw;
+  height: 1.149vw;
+  left: 62.778vw;
+  top: 158.26vw;
+}
+
+.P4 {
+  position: absolute;
+  width: 13.909vw;
+  height: 3.514vw;
+  left: 35.139vw;
+  top: 171.449vw;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.123vw;
+  line-height: 3.514vw;
+  /* identical to box height, or 166% */
+
+  /* headings */
+
+  color: #212121;
+}
+
+.p4 {
+  position: absolute;
+  width: 20.571vw;
+  height: 3.514vw;
+  left: 49.048vw;
+  top: 171.669vw;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.46vw;
+  line-height: 3.514vw;
+  /* identical to box height, or 240% */
+
+  /* headings */
+
+  color: #212121;
+}
+
+.C4 {
+  position: absolute;
+  width: 55.564vw;
+  height: 192px;
+  left: 35.359vw;
+  top: 177.16vw;
+
+  /* text 18 px */
+
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.318vw;
+  line-height: 2.343vw;
+  /* or 178% */
+
+  /* Gray 2 */
+
+  color: #4f4f4f;
+}
+
+.D4 {
+  position: absolute;
+  width: 55.564vw;
+  height: 2.343vw;
+  left: 35.359vw;
+  top: 191.947vw;
+
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.318vw;
+  line-height: 2.343vw;
+  /* identical to box height, or 178% */
+
+  color: #505050;
+}
+
+.B4 {
+  position: absolute;
+  width: 17.13vw;
+  height: 3.148vw;
+  left: 35.359vw;
+  top: 196.047vw;
+
+  background: #324fc5;
+  box-shadow: 0vw 0.293vw 0.293vw rgba(0, 0, 0, 0.25);
+}
+
+.T4 {
+  position: absolute;
+  width: 13.763vw;
+  height: 1.318vw;
+  left: 35.798vw;
+  top: 196.779vw;
+
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.098vw;
+  line-height: 1.464vw;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.V4 {
+  position: absolute;
+  width: 13.763vw;
+  height: 1.318vw;
+  left: 49.78vw;
+  top: 196.852vw;
+}
+
+.b4 {
+  position: absolute;
+  width: 17.13vw;
+  height: 3.148vw;
+  left: 53.807vw;
+  top: 196.047vw;
+
+  background: #ffffff;
+  border: 0.073vw solid #324fc5;
+  box-sizing: border-box;
+  box-shadow: 0vw 0.22vw 0.293vw rgba(0, 0, 0, 0.25);
+}
+
+.t4 {
+  position: absolute;
+  width: 10.907vw;
+  height: 1.349vw;
+  left: 55.846vw;
+  top: 196.766vw;
+
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.098vw;
+  line-height: 1.464vw;
+  text-align: center;
+
+  color: #324fc5;
+}
+
+.v4 {
+  position: absolute;
+  width: 10.507vw;
+  height: 1.149vw;
+  left: 62.778vw;
+  top: 196.986vw;
+}
+
+.heading {
+  position: absolute;
+  width: 36.457vw;
+  height: 3.514vw;
+  left: 8.419vw;
+  top: 215.3vw;
+
+  /* heading 36 px */
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.635vw;
+  line-height: 3.514vw;
+  /* identical to box height, or 133% */
+
+  /* headings */
+
+  color: #212121;
+}
+
+.img6 {
+  position: absolute;
+  width: 12.079vw;
+  height: 10.163vw;
+  left: 77.965vw;
+  top: 212.811vw;
+}
+
+.accordian {
+  margin-top: 227.865vw;
+  width: 91.146vw;
+}
+
+.accordian .contentBx {
+  position: relative;
+  padding-left: 2.669vw;
+  padding-top: 1.693vw;
+  padding-right: 1.693vw;
+  margin-bottom: 1.432vw;
+  margin-left: 8.464vw;
+  background: #ffffff;
+  box-shadow: 0.26vw 0.26vw 1.302vw rgba(166, 166, 166, 0.25);
+  border-radius: 0.651vw;
+  cursor: pointer;
+}
+
+.accordian .contentBx .label {
+  position: relative;
+  padding-bottom: 1.693vw;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.172vw;
+  line-height: 2.083vw;
+  color: #4f4f4f;
+}
+
+.accordian .contentBx .label:before {
+  content: "+";
+  position: absolute;
+  top: 1%;
+  right: 0.651vw;
+  color: #324fc5;
+  font-size: 1.953vw;
+}
+
+.accordian .contentBx.active .label:before {
+  content: "x";
+  font-size: 1.302vw;
+}
+
+.accordian .contentBx .answer {
+  position: relative;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.172vw;
+  line-height: 2.083vw;
+  color: #4f4f4f;
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s;
+  overflow-y: auto;
+}
+
+.accordian .contentBx.active .answer {
+  height: 9.766vw;
+  padding-right: 3.255vw;
+}
+
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+
+#over {
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  width: 29.427vw;
+  height: 14.453vw;
+  background: #ffffff;
+  border: 0.065vw solid #f3f6fd;
+  box-sizing: border-box;
+  box-shadow: 0vw 0.521vw 1.302vw rgba(0, 0, 0, 0.4);
+  border-radius: 0.651vw;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+#notice {
+  position: relative;
+  margin: 2.604vw;
+  margin-top: 3.255vw;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.977vw;
+  line-height: 1.693vw;
+  text-align: center;
+
+  color: #324fc5;
+}
+
+#img7 {
+  position: relative;
+  margin: -1.953vw;
+  margin-left: 2.604vw;
+  width: 4.97vw;
+  height: 6.31vw;
+}
+
+#ok {
+  position: relative;
+  display: inline;
+  margin-left: 6.185vw;
+  background: #102886;
+  border-radius: 0.13vw;
+  width: 6.706vw;
+  padding: 0.977vw 2.93vw;
+  text-align: center;
+  height: 2.604vw;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.042vw;
+  line-height: 1.302vw;
+  width: 7.54vw;
+  height: 2.92vw;
+  /* identical to box height, or 125% */
+
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  /* white */
+
+  color: #ffffff;
+}
