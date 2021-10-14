@@ -9,7 +9,6 @@ import generalElec from './images/general electric.svg';
 import smsng from './images/smsng.svg';
 import more from './images/& more.svg';
 
-
 class Collab extends Component {
 constructor(props)
 {

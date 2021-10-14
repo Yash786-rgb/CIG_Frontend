@@ -21,7 +21,7 @@ import CLS from './cls.js'
 import './home.css';
 import axios from "axios";
 import {url} from './config';
-
+import Testimonial_data from './testimonial_data';
 //alert(window.innerWidth);
 class Home extends Component {
 constructor(props)
@@ -44,16 +44,7 @@ constructor(props)
 
 
 componentDidMount(){  
-  console.log("req to backend to fetch testimonial");
-  axios({
-    method : "GET",
-    withCredentials : true,
-    url : url+"testimonial"
-  }).then((d)=>{
-    console.log("data");
-    this.setState({testimonialArr : d.data});
-    console.log(d);
-  })
+  this.setState({testimonialArr : Testimonial_data});
 }
 
 

@@ -7,12 +7,11 @@ import img4 from './images/recruitment illustration 3.svg';
 import img5 from './images/recruitment illustration 4.svg';
 import img6 from './images/question.svg';
 import img7 from './images/no-recruit-illustration.svg';
-import vector from './images/upload.svg';
-import vector2 from './images/download.svg';
+//import vector from './images/upload.svg';
+//import vector2 from './images/download.svg';
 import axios from "axios";
 import {url} from './config';
-import Helpers from "./Helper.js";
-    
+//import Helpers from "./Helper.js";
 class Recruitment extends Component{
     constructor(props){
         super(props);
@@ -105,27 +104,27 @@ class Recruitment extends Component{
           })
       }
   
-handleDownload = (e) =>{
-        //  axios({
-        //      method : "GET",
-        //      url : "http://localhost:3001/download/" + e,
-        //      withCredentials : true
-        //  })
-         Helpers.httpRequest(
-            url+"download/"+e,
-            "get",
-          ).then((response) => response.blob())
-            .then((blob) => {
-              const url = window.URL.createObjectURL(new Blob([blob]));
-              const link = document.createElement('a');
-              link.href = url;
-              link.setAttribute("download","recruitment.pdf");
-              document.body.appendChild(link);
-              link.click();
-              link.parentNode.removeChild(link);
-            })
+// handleDownload = (e) =>{
+//         //  axios({
+//         //      method : "GET",
+//         //      url : "http://localhost:3001/download/" + e,
+//         //      withCredentials : true
+//         //  })
+//          Helpers.httpRequest(
+//             url+"download/"+e,
+//             "get",
+//           ).then((response) => response.blob())
+//             .then((blob) => {
+//               const url = window.URL.createObjectURL(new Blob([blob]));
+//               const link = document.createElement('a');
+//               link.href = url;
+//               link.setAttribute("download","recruitment.pdf");
+//               document.body.appendChild(link);
+//               link.click();
+//               link.parentNode.removeChild(link);
+//             })
 
-       }
+//        }
 
 
 
@@ -155,12 +154,16 @@ With CIG, you will be able to gain first-hand work-experience by constructively 
                             <div className="T1">Your Submission Here</div>
                     </a>
                         
-                    <div onclick="location.href='#'" style={{cursor: "pointer"}}  onClick={()=>{
+                    {/*<div onclick="location.href='#'" style={{cursor: "pointer"}}  onClick={()=>{
                         this.handleDownload("events");
                     }}>
                         <div className="b1"></div>
                         <div className="t1">PDF for instructions</div>
-                    </div>
+                </div>*/}
+                    <a href="./pdf/Events recuitment.pdf" style={{cursor: "pointer"}} download>
+                        <div className="b1"></div>
+                        <div className="t1">PDF for instructions</div>
+                    </a>
                 </div>
                 <div>
                     <div className="img3"><img  className ="imgWidth" src={img3} /></div>
@@ -176,12 +179,16 @@ With CIG, you will be able to gain first-hand work-experience by constructively 
                             <div className="B2"></div>
                             <div className="T2">Your Submission Here</div>
                     </a>
-                    <div onclick="location.href='#'" style={{cursor: "pointer"}}  onClick={()=>{
+                    {/*<div onclick="location.href='#'" style={{cursor: "pointer"}}  onClick={()=>{
                         this.handleDownload("webDev");
                     }}>
                         <div className="b2"></div>
                         <div className="t2">PDF for instructions</div>
-                    </div>
+                </div> */}
+                    <a href="./pdf/Web dev recuitment.pdf" style={{cursor: "pointer"}} download>
+                        <div className="b2"></div>
+                        <div className="t2">PDF for instructions</div>
+                    </a>
                 </div>
                 <div>
                     <div className="img4"><img  className ="imgWidth" src={img4} /></div>
@@ -195,12 +202,16 @@ With CIG, you will be able to gain first-hand work-experience by constructively 
                             <div className="B3"></div>
                             <div className="T3">Your Submission Here</div>
                     </a>
-                    <div onclick="location.href='#'" style={{cursor: "pointer"}}  onClick={()=>{
+                    {/*<div onclick="location.href='#'" style={{cursor: "pointer"}}  onClick={()=>{
                         this.handleDownload("design");
                     }}>
                         <div className="b3"></div>
                         <div className="t3">PDF for instructions</div>
-                    </div>
+                </div>*/}
+                    <a href="./pdf/Design recuitment.pdf" style={{cursor: "pointer"}} download>
+                        <div className="b3"></div>
+                        <div className="t3">PDF for instructions</div>
+                    </a>
                 </div>
                 <div>
                     <div className="img5"><img  className ="imgWidth" src={img5} /></div>
@@ -214,12 +225,16 @@ With CIG, you will be able to gain first-hand work-experience by constructively 
                             <div className="B4"></div>
                             <div className="T4">Your Submission Here</div>
                     </a>
-                    <div onclick="location.href='#'" style={{cursor: "pointer"}}  onClick={()=>{
+                    {/*<div onclick="location.href='#'" style={{cursor: "pointer"}}  onClick={()=>{
                         this.handleDownload("contentDev");
                     }} >
                         <div className="b4"></div>
                         <div className="t4">PDF for instructions</div>
-                    </div>
+                </div>*/}
+                    <a href="./pdf/Content dev recuitment.pdf" style={{cursor: "pointer"}} download>
+                        <div className="b4"></div>
+                        <div className="t4">PDF for instructions</div>
+                    </a>
                 </div>
                 <div className="heading">FAQs</div>
                 <div className="img6"><img  className ="imgWidth" src={img6} /></div>
