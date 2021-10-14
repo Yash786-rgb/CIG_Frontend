@@ -43,7 +43,17 @@ constructor(props)
 }
 
 
-componentDidMount(){  
+componentDidMount(){
+  // console.log("req to backend to fetch testimonial");
+  // axios({
+  //   method : "GET",
+  //   withCredentials : true,
+  //   url : url+"testimonial"
+  // }).then((d)=>{
+  //   console.log("data");
+  //   this.setState({testimonialArr : d.data});
+  //   console.log(d);
+  // })
   this.setState({testimonialArr : Testimonial_data});
 }
 
