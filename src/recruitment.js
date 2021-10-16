@@ -11,6 +11,7 @@ import img7 from './images/no-recruit-illustration.svg';
 //import vector2 from './images/download.svg';
 import axios from "axios";
 import {url} from './config';
+import faq_data from "./faq_data";
 //import Helpers from "./Helper.js";
 class Recruitment extends Component{
     constructor(props){
@@ -44,18 +45,18 @@ class Recruitment extends Component{
 
 
     componentDidMount(){
-        console.log("requesting");
-        axios({
-          method : "GET",
-          withCredentials : true,
-          url : url+"faq"
-        }).then((d)=>{
-          console.log("data coming");
-          console.log(d);
-          this.setState({faqs:d.data});
-          console.log("state set");
-        })
-
+        // console.log("requesting");
+        // axios({
+        //   method : "GET",
+        //   withCredentials : true,
+        //   url : url+"faq"
+        // }).then((d)=>{
+        //   console.log("data coming");
+        //   console.log(d);
+        //   this.setState({faqs:d.data});
+        //   console.log("state set");
+        // })
+        this.setState({faqs:faq_data})
         axios({
             method : "GET",
             withCredentials : true,

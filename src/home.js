@@ -21,7 +21,7 @@ import CLS from './cls.js'
 import './home.css';
 import axios from "axios";
 import {url} from './config';
-import Testimonial_data from './testimonial_data';
+import testimonial_data from './testimonial_data';
 //alert(window.innerWidth);
 class Home extends Component {
 constructor(props)
@@ -54,7 +54,7 @@ componentDidMount(){
   //   this.setState({testimonialArr : d.data});
   //   console.log(d);
   // })
-  this.setState({testimonialArr : Testimonial_data});
+  this.setState({testimonialArr : testimonial_data});
 }
 
 

@@ -6,6 +6,7 @@ import icon from './images/feat_icon.png';
 import axios from "axios";
 import {url} from './config';
 import './featured.css';
+import featured_data from './featured_data.js';
 class Featured extends Component {
 constructor(props)
 {
@@ -17,16 +18,17 @@ constructor(props)
 }
 
 componentDidMount(){
-  console.log("data featured");
-  axios({
-    method : "GET",
-    withCredentials : true,
-    url : url+"featured"
-  }).then((d)=>{
-    console.log("data coming feat");
-    console.log(d);
-    this.setState({feats:d.data});
-  })
+  // console.log("data featured");
+  // axios({
+  //   method : "GET",
+  //   withCredentials : true,
+  //   url : url+"featured"
+  // }).then((d)=>{
+  //   console.log("data coming feat");
+  //   console.log(d);
+  //   this.setState({feats:d.data});
+  // })
+  this.setState({feats:featured_data});
 }
 
 
@@ -37,10 +39,10 @@ return(
        <div id="featured_bg" >
 
    <div  className="row_feat" >
-{this.state.feats.length != 0 && this.state.feats.map((feat, index) => (
+{this.state.feats.length !== 0 && this.state.feats.map((feat, index) => (
     <div  className="card_feat" id={index} > 
     <div className = "icn">
-<img className = "imgWidth" src={"http://localhost:3001" + feat.icon}/>
+<img className = "imgWidth" src={feat.icon}/>
 </div>
 <div id="card_heading">{feat.heading}</div>
 <div id="card_content">{feat.content}</div>

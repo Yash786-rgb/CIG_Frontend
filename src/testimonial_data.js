@@ -1,4 +1,4 @@
-const Testimonial_data = [{
+const testimonial_data = [{
     heading : "Alum's message",
     content : "My time at CIG has been a wonderful journey. I got great exposure to many things involving industry, research, and academia. I got a chance to work with the IIT Roorkee administration - particularly SRIC office. I had the pleasure to meet and work with some really great self-motivated people who formed the CIG team.",
     image : './images/Abhishek Jain.png',
@@ -14,7 +14,7 @@ const Testimonial_data = [{
     designation : "Co-founder at Ridobiko" 
 }];
 
-export default Testimonial_data;
+export default testimonial_data;
 
 // {
 //     heading : "Director's message",

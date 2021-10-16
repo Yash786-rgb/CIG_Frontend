@@ -8,7 +8,7 @@ import up from './images/up.png';
 import 'font-awesome/css/font-awesome.min.css';
 import axios from "axios";
 import {url} from './config';
-
+import event_data from './event_data';
 
 class Event extends Component {
 constructor(props)
@@ -26,18 +26,19 @@ constructor(props)
 }
 
 componentDidMount(){
-    console.log("requesting");
-    axios({
-      method : "GET",
-      withCredentials : true,
-      url : url +"events"
-    }).then((d)=>{
-      console.log("data coming");
-      console.log(d);
-      var x = d.data.reverse();
-      this.setState({events:x});
-      console.log("state set");
-    })
+    // console.log("requesting");
+    // axios({
+    //   method : "GET",
+    //   withCredentials : true,
+    //   url : url +"events"
+    // }).then((d)=>{
+    //   console.log("data coming");
+    //   console.log(d);
+    //   var x = d.data.reverse();
+    //   this.setState({events:x});
+    //   console.log("state set");
+    // })
+    this.setState({events:event_data});
   }
 
 
