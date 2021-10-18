@@ -33,7 +33,9 @@ constructor(props)
 //   })
 // }
 render(){
-  console.log(this.props.info.name);
+  // console.log(this.props.info.name);
+  
+  console.log("test");
 
 return(
 
