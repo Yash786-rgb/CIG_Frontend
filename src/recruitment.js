@@ -12,7 +12,9 @@ import vector2 from "./images/download.svg";
 import axios from "axios";
 import { url } from "./config";
 import Helpers from "./Helper.js";
+
 import googleFormLink from "./googleform";
+import recruitmentDeadline_Data from "./recruitmentDeadline_Data";
 
 class Recruitment extends Component {
   constructor(props) {
@@ -47,7 +49,8 @@ class Recruitment extends Component {
       ],
       editVisibles: {},
       googleFormLinks: [],
-      deadline: [],
+
+      deadline: recruitmentDeadline_Data,
     };
   }
 
@@ -100,28 +103,28 @@ class Recruitment extends Component {
       });
     });
 
-    axios({
-      method: "GET",
-      withCredentials: true,
-      url: url + "deadline",
-    }).then((d) => {
-      console.log("data coming");
-      console.log("deadline data", d);
-      const arr = d.data;
-      const webD = arr[0].date;
-      const contentD = arr[1].date;
-      const eventsD = arr[2].date;
-      const designD = arr[3].date;
-      console.log("ege", eventsD);
-      this.setState({
-        deadline: {
-          webDev: webD,
-          contentDev: contentD,
-          events: eventsD,
-          design: designD,
-        },
-      });
-    });
+    // axios({
+    //   method: "GET",
+    //   withCredentials: true,
+    //   url: url + "deadline",
+    // }).then((d) => {
+    //   console.log("data coming");
+    //   console.log("deadline data", d);
+    //   const arr = d.data;
+    //   const webD = arr[0].date;
+    //   const contentD = arr[1].date;
+    //   const eventsD = arr[2].date;
+    //   const designD = arr[3].date;
+    //   console.log("ege", eventsD);
+    //   this.setState({
+    //     deadline: {
+    //       webDev: webD,
+    //       contentDev: contentD,
+    //       events: eventsD,
+    //       design: designD,
+    //     },
+    //   });
+    // });
   }
 
   handleDownload = (e) => {
@@ -204,7 +207,9 @@ class Recruitment extends Component {
             as well.
           </div>
           <div className="D2">Deadline: {this.state.deadline.webDev}</div>
+
           <a href={googleFormLink[0].webDev}>
+
             <div className="B2"></div>
             <div className="T2">Your Submission Here</div>
           </a>
@@ -234,6 +239,7 @@ class Recruitment extends Component {
             creative outputs.
           </div>
           <div className="D3">Deadline: {this.state.deadline.design}</div>
+
           <a href={googleFormLink[0].design}>
             <div className="B3"></div>
             <div className="T3">Your Submission Here</div>
@@ -263,7 +269,9 @@ class Recruitment extends Component {
             creation, development, and editing of content for various activities
           </div>
           <div className="D4">Deadline: {this.state.deadline.contentDev}</div>
+
           <a href={googleFormLink[0].contentDev}>
+
             <div className="B4"></div>
             <div className="T4">Your Submission Here</div>
           </a>

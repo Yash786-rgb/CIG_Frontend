@@ -17,36 +17,32 @@ import Form from "./form.js";
 import cig_map from "./images/cig_map.png";
 import axios from "axios";
 import { url } from "./config";
+import ContactsData from "./ContactsData";
+
 class Contact extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      assistantDean: "abcdef dvgxhfxh ",
-      assistantDean_phone: "7685867979",
-      chairperson: "Himanshu pal ",
-      chairperson_phone: "76480958",
-      visible: false,
-    };
+    this.state = ContactsData;
     this.visible = this.visible.bind(this);
     this.hide = this.hide.bind(this);
   }
 
-  componentDidMount() {
-    axios({
-      method: "GET",
-      url: url + "dean_chaiperson",
-      withCredentials: true,
-    }).then((d) => {
-      console.log("dean and chairperson data", d.data[0]);
-      const arr = d.data[0];
-      this.setState({
-        assistantDean: arr.dean.name,
-        assistantDean_phone: arr.dean.contact,
-        chairperson: arr.chairPerson.name,
-        chairperson_phone: arr.chairPerson.contact,
-      });
-    });
-  }
+  // componentDidMount() {
+  //   axios({
+  //     method: "GET",
+  //     url: url + "dean_chaiperson",
+  //     withCredentials: true,
+  //   }).then((d) => {
+  //     console.log("dean and chairperson data", d.data[0]);
+  //     const arr = d.data[0];
+  //     this.setState({
+  //       assistantDean: arr.dean.name,
+  //       assistantDean_phone: arr.dean.contact,
+  //       chairperson: arr.chairPerson.name,
+  //       chairperson_phone: arr.chairPerson.contact,
+  //     });
+  //   });
+  // }
 
   hide() {
     this.setState({ visible: false });
@@ -65,7 +61,6 @@ class Contact extends Component {
       <div id="contact_bg">
         <div id="contact_head"> Contact Us</div>
         <div id="dir_name">{this.state.assistantDean}</div>
-
         <div id="dir_name2">(Associate Dean)</div>
 
         <div id="dir_mob">{this.state.assistantDean_phone}</div>
