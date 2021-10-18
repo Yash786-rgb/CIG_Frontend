@@ -12,6 +12,8 @@ import vector2 from "./images/download.svg";
 import axios from "axios";
 import { url } from "./config";
 import Helpers from "./Helper.js";
+
+import googleFormLink from "./googleform";
 import recruitmentDeadline_Data from "./recruitmentDeadline_Data";
 
 class Recruitment extends Component {
@@ -47,6 +49,7 @@ class Recruitment extends Component {
       ],
       editVisibles: {},
       googleFormLinks: [],
+
       deadline: recruitmentDeadline_Data,
     };
   }
@@ -173,7 +176,7 @@ class Recruitment extends Component {
           </div>
           <div className="D1">Deadline: {this.state.deadline.events}</div>
 
-          <a href={this.state.googleFormLinks.events}>
+          <a href={googleFormLink[0].events}>
             <div className="B1"></div>
             <div className="T1">Your Submission Here</div>
           </a>
@@ -204,7 +207,9 @@ class Recruitment extends Component {
             as well.
           </div>
           <div className="D2">Deadline: {this.state.deadline.webDev}</div>
-          <a href={this.state.googleFormLinks.webDev}>
+
+          <a href={googleFormLink[0].webDev}>
+
             <div className="B2"></div>
             <div className="T2">Your Submission Here</div>
           </a>
@@ -234,7 +239,8 @@ class Recruitment extends Component {
             creative outputs.
           </div>
           <div className="D3">Deadline: {this.state.deadline.design}</div>
-          <a href={this.state.googleFormLinks.design}>
+
+          <a href={googleFormLink[0].design}>
             <div className="B3"></div>
             <div className="T3">Your Submission Here</div>
           </a>
@@ -263,7 +269,9 @@ class Recruitment extends Component {
             creation, development, and editing of content for various activities
           </div>
           <div className="D4">Deadline: {this.state.deadline.contentDev}</div>
-          <a href={this.state.googleFormLinks.contentDev}>
+
+          <a href={googleFormLink[0].contentDev}>
+
             <div className="B4"></div>
             <div className="T4">Your Submission Here</div>
           </a>

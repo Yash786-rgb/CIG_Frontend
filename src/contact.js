@@ -61,7 +61,6 @@ class Contact extends Component {
       <div id="contact_bg">
         <div id="contact_head"> Contact Us</div>
         <div id="dir_name">{this.state.assistantDean}</div>
-
         <div id="dir_name2">(Associate Dean)</div>
 
         <div id="dir_mob">{this.state.assistantDean_phone}</div>
