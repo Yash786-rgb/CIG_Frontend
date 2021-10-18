@@ -28,7 +28,7 @@ constructor(props)
 }
 
 componentDidMount(){
-    axios({
+    /*axios({
       method : "GET",
       url : url+"recruit",
       withCredentials : true
@@ -38,6 +38,7 @@ componentDidMount(){
          recruit : d.data
        })
     })
+    */
 }
 
 
