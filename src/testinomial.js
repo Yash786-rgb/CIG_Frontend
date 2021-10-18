@@ -36,6 +36,8 @@ render(){
   // console.log(this.props.info.name);
   
   console.log("test");
+  
+  console.log("test2");
 
 return(
 
