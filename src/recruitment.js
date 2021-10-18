@@ -84,7 +84,7 @@ class Recruitment extends Component {
 
     this.setState({faqs:faq_data})
 
-    axios({
+    /*axios({
       method: "GET",
       withCredentials: true,
       url: url + "googleForm",
@@ -106,6 +106,7 @@ class Recruitment extends Component {
         },
       });
     });
+    */
 
     // axios({
     //   method: "GET",
