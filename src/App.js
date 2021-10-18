@@ -1,4 +1,4 @@
-// abcd
+console.log("abcd");
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './navigation.css';
