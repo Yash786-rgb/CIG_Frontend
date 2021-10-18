@@ -1,0 +1,127 @@
+#t_bg{
+	position: relative;
+
+background: #FFFFFF;
+border-radius: 0.065vw;
+width: 56.8vw;
+height: 30.208vw;
+box-shadow: 0vw 0vw 1.563vw rgba(200, 200, 200, 0.16);
+
+}
+
+#t_head{
+
+position: absolute;
+width: 10.872vw;
+height: 2.083vw;
+left: 2.604vw;
+top: 5.990vw;
+
+font-family: Noto Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 1.172vw;
+line-height: 2.083vw;
+/* identical to box height, or 178% */
+
+
+/* Gray 2 */
+
+color: #4F4F4F;
+
+}
+
+#t_content{
+
+position: absolute;
+width: 46.094vw;
+height: 8.333vw;
+left: 2.604vw;
+top: 8.594vw;
+white-space: normal !important;
+font-family: Noto Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 1.172vw;
+line-height: 2.083vw;
+/* or 178% */
+
+
+/* Gray 2 */
+
+color: #4F4F4F;
+}
+
+
+#t_img{
+
+position: absolute;
+width: 5.729vw;
+height: 5.92vw;
+left: 2.604vw;
+top: 21.289vw;
+}
+
+#t_name{
+position: absolute;
+width: 11.589vw;
+height: 2.083vw;
+left: 15.234vw;
+top: 22.49vw;
+
+font-family: Noto Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 1.172vw;
+line-height: 2.083vw;
+/* identical to box height, or 178% */
+
+
+/* Gray 2 */
+
+color: #4F4F4F;
+}
+
+#t_des{
+
+position: absolute;
+width: 10.091vw;
+height: 2.083vw;
+left: 15.234vw;
+top: 24.284vw;
+
+font-family: Noto Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 1.042vw;
+line-height: 2.083vw;
+/* identical to box height, or 200% */
+
+
+/* Gray 2 */
+
+color: #4F4F4F;
+}
+
+#t_comma{
+position: absolute;
+left: 2.604vw;
+top: 2.083vw;
+width: 3.646vw;
+height: 2.734vw;
+
+}
+
+#t_line{
+
+position: absolute;
+width: 0.13vw;
+height: 6.510vw;
+left: 12.370vw;
+top: 21.34vw;
+
+
+
+
+
+}

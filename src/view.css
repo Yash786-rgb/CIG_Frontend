@@ -1,0 +1,112 @@
+#view_bg{
+	position: relative;
+	width: 25.98vw;
+height: 25.83vw;
+border: 0.065vw solid #F2F2F2;
+box-sizing: border-box;
+border-radius: 0.065vw;
+
+}
+
+
+#view_bg:hover{
+	background:  #F3F6FD;
+	border: 0.073vw solid #F2F2F2;
+box-sizing: border-box;
+/* blue card */
+
+box-shadow: 0vw 0vw 1.757vw rgba(183, 183, 183, 0.18), 0vw 0.366vw 0.732vw rgba(0, 0, 0, 0.09);
+border-radius: 0.146vw;
+}
+
+.view_head{
+	position: absolute;
+left: 7.2vw;
+top: 8.126vw;
+width: 10.5vw;
+justify-content: center;
+
+
+/* poppins 30 px lh 28 */
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 2.196vw;
+line-height: 2.782vw;
+/* identical to box height, or 127% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+/* headings */
+
+color: #212121;
+}
+
+.view_sub{
+
+position: absolute;
+width: 22.035vw;
+height: 9.370vw;
+left: 1.903vw;
+top: 12.152vw;
+
+/* text 18 px */
+
+font-family: Noto Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 1.318vw;
+line-height: 2.343vw;
+/* or 178% */
+
+text-align: center;
+
+/* Gray 2 */
+
+color: #4F4F4F
+}
+
+.view_link{
+position: absolute;
+width: 15.081vw;
+height: 1.464vw;
+left: 7.947vw;
+top: 21.572vw;
+
+/* unwrapped button 2 */
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 1.171vw;
+line-height: 1.464vw;
+/* identical to box height, or 125% */
+
+display: flex;
+align-items: center;
+text-align: right;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+
+/* new blue */
+
+color: #324FC5;
+}
+
+
+.view_logo{
+	position: absolute;
+	width: 3.514vw;
+height: 3.514vw;
+left: 11.07vw;
+top: 1.757vw;
+}
+
+
+.view_link:hover{
+	color: #324FC5;
+}
+
