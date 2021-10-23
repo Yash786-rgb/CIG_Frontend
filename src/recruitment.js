@@ -11,21 +11,24 @@ import img7 from './images/no-recruit-illustration.svg';
 //import vector2 from './images/download.svg';
 import axios from "axios";
 import {url} from './config';
+
+// import Helpers from "./Helper.js";
 import faq_data from "./faq_data";
-//import Helpers from "./Helper.js";
+import googleFormLink from "./googleform";
+import recruitmentDeadline_Data from "./recruitmentDeadline_Data";
 class Recruitment extends Component{
     constructor(props){
         super(props);
         this.state={faqs:[
-            {id:1,ques:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et? ",ans:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."},
-            {id:2,ques:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et? ",ans:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."},
-            {id:3,ques:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et? ",ans:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."},
-            {id:4,ques:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et? ",ans:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."},
-            {id:5,ques:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et? ",ans:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."}
+            {id:1,ques:"Lorem ipsum  ",ans:"Lorem ipsum "},
+            {id:2,ques:"Lorem ipsum  ",ans:"Lorem ipsum "},
+            {id:3,ques:"Lorem ipsum  ",ans:"Lorem ipsum "},
+            {id:4,ques:"Lorem ipsum  ",ans:"Lorem ipsum "},
+            {id:5,ques:"Lorem ipsum  ",ans:"Lorem ipsum "}
         ],
         editVisibles: {},
-        googleFormLinks  : [],
-         deadline: []
+        googleFormLinks  : {},
+         deadline: recruitmentDeadline_Data
         }
 
     }
@@ -57,52 +60,60 @@ class Recruitment extends Component{
         //   console.log("state set");
         // })
         this.setState({faqs:faq_data})
-        axios({
-            method : "GET",
-            withCredentials : true,
-            url : url+"googleForm"
-          }).then((d)=>{
-            console.log("data coming");
-            console.log("googleForm",d);
-           const arr = d.data;
-           const webD = arr[0].link;
-            const contentD = arr[1].link;
-            const eventsD = arr[2].link;
-            const designD = arr[3].link;
-           console.log(arr);
-           this.setState({
-               googleFormLinks : {
-                webDev : webD,
-                contentDev : contentD,
-                events :eventsD,
-                design : designD
-               }
-           })
-          })
+        // axios({
+        //     method : "GET",
+        //     withCredentials : true,
+        //     url : url+"googleForm"
+        //   }).then((d)=>{
+        //     console.log("data coming");
+        //     console.log("googleForm",d);
+        //    const arr = d.data;
+        //    const webD = arr[0].link;
+        //     const contentD = arr[1].link;
+        //     const eventsD = arr[2].link;
+        //     const designD = arr[3].link;
+        //    console.log(arr);
+        //    this.setState({
+        //        googleFormLinks : {
+        //         webDev : webD,
+        //         contentDev : contentD,
+        //         events :eventsD,
+        //         design : designD
+        //        }
+        //    })
+        //   })
 
+        this.setState({
+          googleFormLinks: {
+            webDev: googleFormLink.webDev,
+            contentDev: googleFormLink.contentDev,
+            events: googleFormLink.events,
+            design: googleFormLink.design,
+          },
+        });
 
-          axios({
-            method : "GET",
-            withCredentials : true,
-            url : url+"deadline"
-          }).then((d)=>{
-            console.log("data coming");
-            console.log("deadline data",d);
-            const arr = d.data;  
-            const webD = arr[0].date;
-            const contentD = arr[1].date;
-            const eventsD = arr[2].date;
-            const designD = arr[3].date;
-            console.log("ege",eventsD);
-            this.setState({
-               deadline : {
-                   webDev : webD,
-                   contentDev : contentD,
-                   events :eventsD,
-                   design : designD
-               }
-           })
-          })
+          // axios({
+          //   method : "GET",
+          //   withCredentials : true,
+          //   url : url+"deadline"
+          // }).then((d)=>{
+          //   console.log("data coming");
+          //   console.log("deadline data",d);
+          //   const arr = d.data;  
+          //   const webD = arr[0].date;
+          //   const contentD = arr[1].date;
+          //   const eventsD = arr[2].date;
+          //   const designD = arr[3].date;
+          //   console.log("ege",eventsD);
+          //   this.setState({
+          //      deadline : {
+          //          webDev : webD,
+          //          contentDev : contentD,
+          //          events :eventsD,
+          //          design : designD
+          //      }
+          //  })
+          // })
       }
   
 // handleDownload = (e) =>{
