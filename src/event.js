@@ -67,7 +67,7 @@ render(){
       <div className="h">Events</div>
       <div className="description">
       Our events include Corporate Lecture Series and Workshops.
-CIG conducts time to time corporate lecture series which acts as platform to bridge the gap between corporates and students of R land.
+CIG conducts time to time corporate lecture series which acts as platform to bridge the gap between corporates and students of IIT Roorkee.
 CIG organizes various workshops to deliver an insight of industrial technologies and projects to students.
       </div>
       <div className="image">
