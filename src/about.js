@@ -37,12 +37,12 @@ class About extends Component {
       },
       workshop: {
         heading: "Vision",
-        sub: " To make IIT Roorkee a hub of Innovation , Research and opportunities",
-        link: "",
+        sub: "",
+        link: "Contributing to make IITR a hub of Innovation, Research and Opportunity.",
       },
       project: {
         heading: "Objective",
-        sub: "Knowledge Exchange Seminars Industry Interactions Events Corporate Collaborations",
+        sub: "Knowledge Exchange Seminars Industry Interaction Event Corporate Collaborations",
         link: "",
         visible: false,
         form: false,
