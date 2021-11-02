@@ -37,8 +37,8 @@ class About extends Component {
       },
       workshop: {
         heading: "Vision",
-        sub: "",
-        link: "Contributing to make IITR a hub of Innovation, Research and Opportunity.",
+        sub: "Contributing to make IITR a hub of Innovation, Research and Opportunity.",
+        link: "",
       },
       project: {
         heading: "Objective",
